@@ -12,5 +12,12 @@
     "15:45"
   ],
   "flat_by_cet": "17:05",
-  "target_r": 2
+  "target_r": 2,
+  "never_trade": [
+    "NVDA_US_EQ",
+    "NVDd_EQ",
+    "NVDA",
+    "NVD"
+  ],
+  "_note": "Autopilot only ever sells shares it bought itself; never_trade and any ticker already held are skipped."
 }

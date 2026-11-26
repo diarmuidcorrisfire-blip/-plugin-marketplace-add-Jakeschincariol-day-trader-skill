@@ -177,8 +177,9 @@ def manage_open(state, cfg, now, pos):
 def find_setup(cfg, now, held):
     universe = load(UNIVERSE, {})
     picks = []
+    never = set(cfg.get("never_trade", []))
     for ysym, ticker in universe.items():
-        if ticker in held:
+        if ticker in held or ticker in never or ticker.split("_")[0].rstrip("d") in never:
             continue
         b = bars(ysym)
         time.sleep(0.3)
