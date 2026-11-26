@@ -1,0 +1,29 @@
+{
+ "open": {
+  "ticker": "SANe_EQ",
+  "yahoo": "SAN.MC",
+  "qty": 9.12,
+  "entry": 10.43421053,
+  "stop": 10.32,
+  "target": 10.66,
+  "date": "2026-11-26",
+  "opened_at": "2026-11-26T16:09:20+01:00",
+  "setup": {
+   "yahoo": "SAN.MC",
+   "ticker": "SANe_EQ",
+   "signal_close": 10.413999557495117,
+   "or_high": 10.354000091552734,
+   "or_low": 10.302000045776367,
+   "stop": 10.32,
+   "bar": "15:53",
+   "chg_pct": 3.85,
+   "traded_value": 147346419.8785696
+  },
+  "buy_order_id": 61002214054,
+  "stop_id": 61002214101
+ },
+ "trades": [],
+ "day_entries": {
+  "2026-11-26": 1
+ }
+}
