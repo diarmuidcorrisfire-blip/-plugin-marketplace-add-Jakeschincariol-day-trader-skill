@@ -32,7 +32,7 @@ import urllib.request
 from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CFG = os.path.join(ROOT, "trader", "autopilot.json")
+CFG = os.environ.get("AUTOPILOT_CFG") or os.path.join(ROOT, "trader", "autopilot.json")
 STATE = os.path.join(ROOT, "trader", "autopilot_state.json")
 LOG = os.path.join(ROOT, "trader", "autopilot_log.jsonl")
 T212 = "https://live.trading212.com/api/v0/equity"
