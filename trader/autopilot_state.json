@@ -5,7 +5,7 @@
   "qty": 9.12,
   "entry": 10.43421053,
   "stop": 10.32,
-  "target": 10.66,
+  "target": 10.47,
   "date": "2026-11-26",
   "opened_at": "2026-11-26T16:09:20+01:00",
   "setup": {
@@ -20,10 +20,11 @@
    "traded_value": 147346419.8785696
   },
   "buy_order_id": 61002214054,
-  "stop_id": 61002214101
+  "stop_id": 61002214101,
+  "target_note": "lowered from 10.66 after Time Machine replay (0% vs 47.6% hit by 17:15)"
  },
  "trades": [],
  "day_entries": {
-  "2026-11-26": 1
+  "2026-11-26": 3
  }
 }

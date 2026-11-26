@@ -1,3 +1,14 @@
 {"ts": "2026-11-26T16:09:37+01:00", "msg": "setups", "top": [{"yahoo": "SAN.MC", "signal_close": 10.413999557495117, "stop": 10.32, "chg_pct": 3.85, "bar": "15:53"}, {"yahoo": "VOW3.DE", "signal_close": 67.37999725341797, "stop": 66.61, "chg_pct": 3.28, "bar": "15:54"}, {"yahoo": "BNP.PA", "signal_close": 90.91999816894531, "stop": 90.54, "chg_pct": 3.06, "bar": "15:54"}]}
 {"ts": "2026-11-26T16:09:43+01:00", "msg": "TRADE OPENED", "ticker": "SANe_EQ", "qty": 9.12, "entry": 10.43421053, "stop": 10.32, "target": 10.66, "max_loss_eur": 1.04, "value_eur": 95.16}
 {"ts": "2026-11-26T16:10:03+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.435, "entry": 10.43421053, "stop": 10.32, "target": 10.66, "open_pnl_eur": 0.01}
+{"ts": "2026-11-26T16:10:24+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.436, "entry": 10.43421053, "stop": 10.32, "target": 10.66, "open_pnl_eur": 0.02}
+{"ts": "2026-11-26T16:10:44+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.442, "entry": 10.43421053, "stop": 10.32, "target": 10.66, "open_pnl_eur": 0.07}
+{"ts": "2026-11-26T16:11:05+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.439, "entry": 10.43421053, "stop": 10.32, "target": 10.66, "open_pnl_eur": 0.04}
+{"ts": "2026-11-26T16:11:26+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.438, "entry": 10.43421053, "stop": 10.32, "target": 10.66, "open_pnl_eur": 0.03}
+{"ts": "2026-11-26T16:11:46+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.439, "entry": 10.43421053, "stop": 10.32, "target": 10.66, "open_pnl_eur": 0.04}
+{"ts": "2026-11-26T16:12:06+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.439, "entry": 10.43421053, "stop": 10.32, "target": 10.66, "open_pnl_eur": 0.04}
+{"ts": "2026-11-26T16:12:27+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.439, "entry": 10.43421053, "stop": 10.32, "target": 10.66, "open_pnl_eur": 0.04}
+{"ts": "2026-11-26T16:12:47+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.443, "entry": 10.43421053, "stop": 10.32, "target": 10.47, "open_pnl_eur": 0.08}
+{"ts": "2026-11-26T16:13:08+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.443, "entry": 10.43421053, "stop": 10.32, "target": 10.47, "open_pnl_eur": 0.08}
+{"ts": "2026-11-26T16:13:28+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.435, "entry": 10.43421053, "stop": 10.32, "target": 10.47, "open_pnl_eur": 0.01}
+{"ts": "2026-11-26T16:13:49+01:00", "msg": "holding", "ticker": "SANe_EQ", "price": 10.435, "entry": 10.43421053, "stop": 10.32, "target": 10.47, "open_pnl_eur": 0.01}
