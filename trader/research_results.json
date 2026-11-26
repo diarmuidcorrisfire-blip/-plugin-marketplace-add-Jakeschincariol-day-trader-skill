@@ -1,0 +1,637 @@
+{
+ "generated": "2026-11-26T17:32+01:00",
+ "notional_eur": 130.0,
+ "strategies": {
+  "ORB 30m, stop range low, 1.5R": {
+   "EU": {
+    "all": {
+     "n": 1167,
+     "win": 0.439,
+     "avg_pct": -0.014,
+     "t": -0.53,
+     "pf": 0.96,
+     "eur_per_trade_130": -0.018
+    },
+    "first_half": {
+     "n": 593,
+     "win": 0.39,
+     "avg_pct": -0.124,
+     "t": -3.83,
+     "pf": 0.69,
+     "eur_per_trade_130": -0.161
+    },
+    "second_half": {
+     "n": 574,
+     "win": 0.49,
+     "avg_pct": 0.1,
+     "t": 2.46,
+     "pf": 1.28,
+     "eur_per_trade_130": 0.13
+    },
+    "period": [
+     "2026-09-04",
+     "2026-11-26"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 862,
+     "win": 0.314,
+     "avg_pct": -0.381,
+     "t": -12.12,
+     "pf": 0.34,
+     "eur_per_trade_130": -0.495
+    },
+    "first_half": {
+     "n": 423,
+     "win": 0.314,
+     "avg_pct": -0.364,
+     "t": -8.41,
+     "pf": 0.35,
+     "eur_per_trade_130": -0.473
+    },
+    "second_half": {
+     "n": 439,
+     "win": 0.314,
+     "avg_pct": -0.397,
+     "t": -8.74,
+     "pf": 0.34,
+     "eur_per_trade_130": -0.516
+    },
+    "period": [
+     "2026-09-02",
+     "2026-11-25"
+    ]
+   },
+   "verdict": "fails"
+  },
+  "ORB 15m, stop range low, 1R": {
+   "EU": {
+    "all": {
+     "n": 1157,
+     "win": 0.493,
+     "avg_pct": -0.006,
+     "t": -0.28,
+     "pf": 0.98,
+     "eur_per_trade_130": -0.007
+    },
+    "first_half": {
+     "n": 590,
+     "win": 0.471,
+     "avg_pct": -0.051,
+     "t": -1.89,
+     "pf": 0.84,
+     "eur_per_trade_130": -0.066
+    },
+    "second_half": {
+     "n": 567,
+     "win": 0.515,
+     "avg_pct": 0.042,
+     "t": 1.35,
+     "pf": 1.14,
+     "eur_per_trade_130": 0.054
+    },
+    "period": [
+     "2026-09-04",
+     "2026-11-26"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 1029,
+     "win": 0.348,
+     "avg_pct": -0.381,
+     "t": -12.56,
+     "pf": 0.38,
+     "eur_per_trade_130": -0.495
+    },
+    "first_half": {
+     "n": 498,
+     "win": 0.351,
+     "avg_pct": -0.362,
+     "t": -8.63,
+     "pf": 0.38,
+     "eur_per_trade_130": -0.471
+    },
+    "second_half": {
+     "n": 531,
+     "win": 0.345,
+     "avg_pct": -0.398,
+     "t": -9.13,
+     "pf": 0.38,
+     "eur_per_trade_130": -0.518
+    },
+    "period": [
+     "2026-09-02",
+     "2026-11-25"
+    ]
+   },
+   "verdict": "fails"
+  },
+  "Last-90-min momentum (+1%)": {
+   "EU": {
+    "all": {
+     "n": 477,
+     "win": 0.491,
+     "avg_pct": -0.04,
+     "t": -1.4,
+     "pf": 0.83,
+     "eur_per_trade_130": -0.051
+    },
+    "first_half": {
+     "n": 200,
+     "win": 0.375,
+     "avg_pct": -0.156,
+     "t": -4.33,
+     "pf": 0.45,
+     "eur_per_trade_130": -0.203
+    },
+    "second_half": {
+     "n": 277,
+     "win": 0.574,
+     "avg_pct": 0.045,
+     "t": 1.11,
+     "pf": 1.23,
+     "eur_per_trade_130": 0.058
+    },
+    "period": [
+     "2026-09-04",
+     "2026-11-26"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 666,
+     "win": 0.237,
+     "avg_pct": -0.315,
+     "t": -13.52,
+     "pf": 0.26,
+     "eur_per_trade_130": -0.409
+    },
+    "first_half": {
+     "n": 311,
+     "win": 0.257,
+     "avg_pct": -0.27,
+     "t": -8.76,
+     "pf": 0.28,
+     "eur_per_trade_130": -0.351
+    },
+    "second_half": {
+     "n": 355,
+     "win": 0.22,
+     "avg_pct": -0.353,
+     "t": -10.35,
+     "pf": 0.24,
+     "eur_per_trade_130": -0.459
+    },
+    "period": [
+     "2026-09-02",
+     "2026-11-25"
+    ]
+   },
+   "verdict": "fails"
+  },
+  "Last-90-min momentum (+2%)": {
+   "EU": {
+    "all": {
+     "n": 178,
+     "win": 0.522,
+     "avg_pct": -0.023,
+     "t": -0.38,
+     "pf": 0.92,
+     "eur_per_trade_130": -0.031
+    },
+    "first_half": {
+     "n": 61,
+     "win": 0.344,
+     "avg_pct": -0.154,
+     "t": -1.94,
+     "pf": 0.51,
+     "eur_per_trade_130": -0.2
+    },
+    "second_half": {
+     "n": 117,
+     "win": 0.615,
+     "avg_pct": 0.044,
+     "t": 0.54,
+     "pf": 1.17,
+     "eur_per_trade_130": 0.058
+    },
+    "period": [
+     "2026-09-04",
+     "2026-11-26"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 335,
+     "win": 0.284,
+     "avg_pct": -0.314,
+     "t": -8.24,
+     "pf": 0.32,
+     "eur_per_trade_130": -0.408
+    },
+    "first_half": {
+     "n": 140,
+     "win": 0.307,
+     "avg_pct": -0.274,
+     "t": -5.31,
+     "pf": 0.32,
+     "eur_per_trade_130": -0.356
+    },
+    "second_half": {
+     "n": 195,
+     "win": 0.267,
+     "avg_pct": -0.343,
+     "t": -6.37,
+     "pf": 0.32,
+     "eur_per_trade_130": -0.446
+    },
+    "period": [
+     "2026-09-02",
+     "2026-11-25"
+    ]
+   },
+   "verdict": "fails"
+  },
+  "VWAP pullback (up 1.5%)": {
+   "EU": {
+    "all": {
+     "n": 344,
+     "win": 0.456,
+     "avg_pct": 0.058,
+     "t": 1.18,
+     "pf": 1.16,
+     "eur_per_trade_130": 0.075
+    },
+    "first_half": {
+     "n": 142,
+     "win": 0.423,
+     "avg_pct": 0.058,
+     "t": 0.78,
+     "pf": 1.17,
+     "eur_per_trade_130": 0.076
+    },
+    "second_half": {
+     "n": 202,
+     "win": 0.48,
+     "avg_pct": 0.058,
+     "t": 0.88,
+     "pf": 1.16,
+     "eur_per_trade_130": 0.075
+    },
+    "period": [
+     "2026-09-04",
+     "2026-11-26"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 456,
+     "win": 0.314,
+     "avg_pct": -0.347,
+     "t": -8.86,
+     "pf": 0.38,
+     "eur_per_trade_130": -0.451
+    },
+    "first_half": {
+     "n": 196,
+     "win": 0.362,
+     "avg_pct": -0.284,
+     "t": -4.41,
+     "pf": 0.48,
+     "eur_per_trade_130": -0.37
+    },
+    "second_half": {
+     "n": 260,
+     "win": 0.277,
+     "avg_pct": -0.394,
+     "t": -8.17,
+     "pf": 0.31,
+     "eur_per_trade_130": -0.512
+    },
+    "period": [
+     "2026-09-02",
+     "2026-11-25"
+    ]
+   },
+   "verdict": "fails"
+  },
+  "Gap-down reversal (2%)": {
+   "EU": {
+    "all": {
+     "n": 36,
+     "win": 0.5,
+     "avg_pct": 0.375,
+     "t": 1.28,
+     "pf": 1.71,
+     "eur_per_trade_130": 0.487
+    },
+    "first_half": {
+     "n": 12,
+     "win": 0.583,
+     "avg_pct": 0.504,
+     "t": 0.99,
+     "pf": 2.03,
+     "eur_per_trade_130": 0.655
+    },
+    "second_half": {
+     "n": 24,
+     "win": 0.458,
+     "avg_pct": 0.31,
+     "t": 0.86,
+     "pf": 1.57,
+     "eur_per_trade_130": 0.403
+    },
+    "period": [
+     "2026-09-09",
+     "2026-11-25"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 178,
+     "win": 0.36,
+     "avg_pct": -0.753,
+     "t": -4.49,
+     "pf": 0.43,
+     "eur_per_trade_130": -0.979
+    },
+    "first_half": {
+     "n": 76,
+     "win": 0.342,
+     "avg_pct": -0.443,
+     "t": -1.98,
+     "pf": 0.56,
+     "eur_per_trade_130": -0.576
+    },
+    "second_half": {
+     "n": 102,
+     "win": 0.373,
+     "avg_pct": -0.983,
+     "t": -4.13,
+     "pf": 0.36,
+     "eur_per_trade_130": -1.278
+    },
+    "period": [
+     "2026-09-04",
+     "2026-11-25"
+    ]
+   },
+   "verdict": "fails"
+  },
+  "Midday dip in uptrend (2.5%)": {
+   "EU": {
+    "all": {
+     "n": 44,
+     "win": 0.477,
+     "avg_pct": 0.205,
+     "t": 1.1,
+     "pf": 1.55,
+     "eur_per_trade_130": 0.267
+    },
+    "first_half": {
+     "n": 15,
+     "win": 0.333,
+     "avg_pct": -0.22,
+     "t": -1.05,
+     "pf": 0.54,
+     "eur_per_trade_130": -0.287
+    },
+    "second_half": {
+     "n": 29,
+     "win": 0.552,
+     "avg_pct": 0.426,
+     "t": 1.69,
+     "pf": 2.33,
+     "eur_per_trade_130": 0.553
+    },
+    "period": [
+     "2026-09-09",
+     "2026-11-25"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 132,
+     "win": 0.273,
+     "avg_pct": -0.647,
+     "t": -6.24,
+     "pf": 0.22,
+     "eur_per_trade_130": -0.841
+    },
+    "first_half": {
+     "n": 66,
+     "win": 0.303,
+     "avg_pct": -0.632,
+     "t": -4.83,
+     "pf": 0.19,
+     "eur_per_trade_130": -0.822
+    },
+    "second_half": {
+     "n": 66,
+     "win": 0.242,
+     "avg_pct": -0.661,
+     "t": -4.12,
+     "pf": 0.25,
+     "eur_per_trade_130": -0.859
+    },
+    "period": [
+     "2026-09-02",
+     "2026-11-25"
+    ]
+   },
+   "verdict": "fails"
+  },
+  "RSI(2) swing in uptrend (2y daily)": {
+   "EU": {
+    "all": {
+     "n": 323,
+     "win": 0.706,
+     "avg_pct": 0.65,
+     "t": 3.55,
+     "pf": 1.71,
+     "eur_per_trade_130": 0.845
+    },
+    "first_half": {
+     "n": 165,
+     "win": 0.727,
+     "avg_pct": 0.716,
+     "t": 2.86,
+     "pf": 1.79,
+     "eur_per_trade_130": 0.931
+    },
+    "second_half": {
+     "n": 158,
+     "win": 0.684,
+     "avg_pct": 0.581,
+     "t": 2.16,
+     "pf": 1.62,
+     "eur_per_trade_130": 0.755
+    },
+    "period": [
+     "2025-09-10",
+     "2026-11-19"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 445,
+     "win": 0.587,
+     "avg_pct": 0.099,
+     "t": 0.43,
+     "pf": 1.06,
+     "eur_per_trade_130": 0.129
+    },
+    "first_half": {
+     "n": 232,
+     "win": 0.578,
+     "avg_pct": -0.02,
+     "t": -0.07,
+     "pf": 0.99,
+     "eur_per_trade_130": -0.026
+    },
+    "second_half": {
+     "n": 213,
+     "win": 0.596,
+     "avg_pct": 0.229,
+     "t": 0.64,
+     "pf": 1.14,
+     "eur_per_trade_130": 0.298
+    },
+    "period": [
+     "2025-09-17",
+     "2026-11-20"
+    ]
+   },
+   "verdict": "fails"
+  },
+  "20-day breakout, hold 5 days (2y daily)": {
+   "EU": {
+    "all": {
+     "n": 553,
+     "win": 0.506,
+     "avg_pct": 0.014,
+     "t": 0.08,
+     "pf": 1.01,
+     "eur_per_trade_130": 0.018
+    },
+    "first_half": {
+     "n": 281,
+     "win": 0.548,
+     "avg_pct": 0.136,
+     "t": 0.58,
+     "pf": 1.1,
+     "eur_per_trade_130": 0.177
+    },
+    "second_half": {
+     "n": 272,
+     "win": 0.463,
+     "avg_pct": -0.113,
+     "t": -0.44,
+     "pf": 0.93,
+     "eur_per_trade_130": -0.147
+    },
+    "period": [
+     "2025-09-10",
+     "2026-11-18"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 620,
+     "win": 0.479,
+     "avg_pct": 0.25,
+     "t": 0.87,
+     "pf": 1.11,
+     "eur_per_trade_130": 0.325
+    },
+    "first_half": {
+     "n": 321,
+     "win": 0.498,
+     "avg_pct": 0.367,
+     "t": 1.04,
+     "pf": 1.18,
+     "eur_per_trade_130": 0.477
+    },
+    "second_half": {
+     "n": 299,
+     "win": 0.458,
+     "avg_pct": 0.125,
+     "t": 0.27,
+     "pf": 1.05,
+     "eur_per_trade_130": 0.162
+    },
+    "period": [
+     "2025-09-17",
+     "2026-11-16"
+    ]
+   },
+   "verdict": "fails"
+  },
+  "Overnight: buy close, sell open (2y daily)": {
+   "EU": {
+    "all": {
+     "n": 11990,
+     "win": 0.505,
+     "avg_pct": 0.008,
+     "t": 0.77,
+     "pf": 1.02,
+     "eur_per_trade_130": 0.011
+    },
+    "first_half": {
+     "n": 5945,
+     "win": 0.512,
+     "avg_pct": 0.023,
+     "t": 1.42,
+     "pf": 1.06,
+     "eur_per_trade_130": 0.03
+    },
+    "second_half": {
+     "n": 6045,
+     "win": 0.499,
+     "avg_pct": -0.006,
+     "t": -0.42,
+     "pf": 0.98,
+     "eur_per_trade_130": -0.008
+    },
+    "period": [
+     "2025-09-10",
+     "2026-11-25"
+    ]
+   },
+   "US": {
+    "all": {
+     "n": 15300,
+     "win": 0.371,
+     "avg_pct": -0.237,
+     "t": -14.98,
+     "pf": 0.66,
+     "eur_per_trade_130": -0.308
+    },
+    "first_half": {
+     "n": 7650,
+     "win": 0.341,
+     "avg_pct": -0.237,
+     "t": -12.58,
+     "pf": 0.6,
+     "eur_per_trade_130": -0.308
+    },
+    "second_half": {
+     "n": 7650,
+     "win": 0.402,
+     "avg_pct": -0.236,
+     "t": -9.32,
+     "pf": 0.7,
+     "eur_per_trade_130": -0.307
+    },
+    "period": [
+     "2025-09-17",
+     "2026-11-24"
+    ]
+   },
+   "verdict": "fails"
+  }
+ },
+ "passed": []
+}
