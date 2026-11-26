@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
-"""Paper trading for the RSI(2) uptrend swing (the one strategy that passed research in Europe).
+"""Paper trading for the European dip-buy swing chosen by the grid search (autopilot/grid.py).
 
 Rule (daily bars, European universe, EUR, no FX fee):
-  BUY at the close when the close is above its 200-day average and RSI(2) < 10.
-  SELL at the close when the close is above its 5-day average, or after 10 trading days.
-Pretend money: EUR 130 split into 2 slots of EUR 65; a signal is taken only if a slot is free,
-strongest dip (lowest RSI) first. Never trades NVDA or anything listed in never_trade.
+  BUY at the close when the close is above its 200-day average and RSI(3) < 15.
+  SELL at the close when the close is above its 3-day average, or after 5 trading days.
+Pretend money: EUR 130 split into 3 slots; a signal is taken only if a slot is free,
+deepest dip (lowest RSI) first. Never trades NVDA or anything listed in never_trade.
 
-Research (Nov 26 2026, ~16 months of trades, 39 EU stocks): 323 signals, 71% winners,
-+0.65% average per trade, positive in both halves; EUR 130 in 2 slots made about +EUR 58.
-Not a guarantee: a bull-market sample, current large caps only, and no stop-loss
-(worst single trade -14.7%).
+Grid search (Nov 26 2026): 5,088 rules x 3 portfolio sizes per market, chosen on Sep 2025-Jun 2026,
+then tested on Jun-Nov 2026 (never used for choosing): +0.68% per trade, 59 trades,
+19 of 20 rolling 31-day windows profitable, worst window -2.7% of a slot.
+All 19 dip-buy rules picked on the older data were profitable on the unseen data; every breakout
+rule failed. Not a guarantee: current large caps only, no stop-loss.
 
   python3 autopilot/swing_paper.py run      # once a day after the European close (~17:40 CET)
   python3 autopilot/swing_paper.py stats
@@ -27,7 +28,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOK = os.path.join(ROOT, "trader", "swing_paper_state.json")
 UNIVERSE = os.path.join(ROOT, "autopilot", "eu_universe.json")
 CET = ZoneInfo("Europe/Berlin")
-CAPITAL, SLOTS, RSI_LO, MAX_HOLD = 130.0, 2, 10, 10
+CAPITAL, SLOTS, RSI_N, RSI_LO, EXIT_MA, MAX_HOLD = 130.0, 3, 3, 15, 3, 5
 
 
 def daily(sym):
@@ -41,19 +42,20 @@ def daily(sym):
     return [(dt.datetime.fromtimestamp(t, CET).date(), c) for t, c in zip(res["timestamp"], q["close"]) if c is not None]
 
 
-def rsi2(closes):
+def rsi_last(closes, n=RSI_N):
+    """Wilder RSI(n) of the last close."""
     g = l = 0.0
     out = None
     for i in range(1, len(closes)):
         ch = closes[i] - closes[i - 1]
         up, dn = max(ch, 0), max(-ch, 0)
-        if i <= 2:
+        if i <= n:
             g += up; l += dn
-            if i == 2:
-                g /= 2; l /= 2
+            if i == n:
+                g /= n; l /= n
         else:
-            g = (g + up) / 2; l = (l + dn) / 2
-        if i >= 2:
+            g = (g * (n - 1) + up) / n; l = (l * (n - 1) + dn) / n
+        if i >= n:
             out = 100 - 100 / (1 + g / l) if l else 100.0
     return out
 
@@ -96,7 +98,7 @@ def run():
             still.append(p); continue
         c = [x[1] for x in rows]
         held = sum(1 for x in rows if x[0] > dt.date.fromisoformat(p["date"]))
-        if c[-1] > sum(c[-5:]) / 5 or held >= MAX_HOLD:
+        if c[-1] > sum(c[-EXIT_MA:]) / EXIT_MA or held >= MAX_HOLD:
             ret = c[-1] / p["entry"] - 1
             p.update({"exit": round(c[-1], 3), "exit_date": today.isoformat(), "days": held,
                       "ret_pct": round(100 * ret, 2), "pnl_eur": round(p["eur"] * ret, 2)})
@@ -111,7 +113,7 @@ def run():
         if s in never or uni[s] in never or any(p["yahoo"] == s for p in book["open"]):
             continue
         c = [x[1] for x in rows]
-        r = rsi2(c[-60:])
+        r = rsi_last(c[-60:])
         if r is not None and r < RSI_LO and c[-1] > sum(c[-200:]) / 200:
             sigs.append((r, s, c[-1]))
     sigs.sort()
@@ -119,8 +121,8 @@ def run():
         if len(book["open"]) >= SLOTS:
             break
         book["open"].append({"yahoo": s, "ticker": uni[s], "date": today.isoformat(), "entry": round(px, 3),
-                             "rsi2": round(r, 1), "eur": CAPITAL / SLOTS})
-        print(f"PAPER SWING BOUGHT {s} at {px:.2f} (RSI2 {r:.1f})")
+                             "rsi": round(r, 1), "eur": CAPITAL / SLOTS})
+        print(f"PAPER SWING BOUGHT {s} at {px:.2f} (RSI3 {r:.1f})")
     if not sigs:
         print("no swing signal today")
     save(book)
@@ -131,7 +133,7 @@ def stats():
     b = load()
     cl = b["closed"]
     tot = sum(x["pnl_eur"] for x in cl)
-    out = {"started": b.get("started"), "open": [{k: p[k] for k in ("yahoo", "date", "entry", "rsi2")} for p in b["open"]],
+    out = {"started": b.get("started"), "open": [{k: p[k] for k in ("yahoo", "date", "entry", "rsi")} for p in b["open"]],
            "closed_trades": len(cl), "wins": sum(1 for x in cl if x["pnl_eur"] > 0), "total_eur": round(tot, 2)}
     print(json.dumps(out))
     return out
