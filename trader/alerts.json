@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "id": "nvda-breakeven",
+      "symbol": "NVDA",
+      "type": "above",
+      "price": 167.0,
+      "note": "NVDA break-even (40 sh @ 167)"
+    },
+    {
+      "id": "nvda-180",
+      "symbol": "NVDA",
+      "type": "above",
+      "price": 180.0,
+      "note": "NVDA target zone 180-185"
+    },
+    {
+      "id": "nvda-185",
+      "symbol": "NVDA",
+      "type": "above",
+      "price": 185.0,
+      "note": "NVDA top of target zone"
+    },
+    {
+      "id": "bell-1127",
+      "type": "opening_bell",
+      "date": "2026-11-27"
+    }
+  ]
+}
