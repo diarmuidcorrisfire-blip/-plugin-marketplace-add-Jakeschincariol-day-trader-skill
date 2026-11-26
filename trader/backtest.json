@@ -1,0 +1,615 @@
+{
+ "generated": "2026-11-26T17:24+01:00",
+ "markets": {
+  "EU": {
+   "symbols": 39,
+   "days": 60,
+   "best": [
+    {
+     "or_minutes": 30,
+     "entry_until": "10:30",
+     "target_r": 1.5,
+     "stop": "low",
+     "trades": 59,
+     "win_rate": 0.492,
+     "total_eur": 2.83,
+     "avg_eur": 0.048,
+     "avg_r": 0.011,
+     "worst_drawdown_eur": -10.69,
+     "exits": {
+      "target": 14,
+      "stop": 27,
+      "close": 18
+     }
+    },
+    {
+     "or_minutes": 30,
+     "entry_until": "12:00",
+     "target_r": 1.5,
+     "stop": "low",
+     "trades": 59,
+     "win_rate": 0.492,
+     "total_eur": 2.83,
+     "avg_eur": 0.048,
+     "avg_r": 0.011,
+     "worst_drawdown_eur": -10.69,
+     "exits": {
+      "target": 14,
+      "stop": 27,
+      "close": 18
+     }
+    },
+    {
+     "or_minutes": 30,
+     "entry_until": "15:00",
+     "target_r": 1.5,
+     "stop": "low",
+     "trades": 59,
+     "win_rate": 0.492,
+     "total_eur": 2.83,
+     "avg_eur": 0.048,
+     "avg_r": 0.011,
+     "worst_drawdown_eur": -10.69,
+     "exits": {
+      "target": 14,
+      "stop": 27,
+      "close": 18
+     }
+    },
+    {
+     "or_minutes": 30,
+     "entry_until": "10:30",
+     "target_r": 1.0,
+     "stop": "low",
+     "trades": 59,
+     "win_rate": 0.525,
+     "total_eur": 2.17,
+     "avg_eur": 0.037,
+     "avg_r": -0.001,
+     "worst_drawdown_eur": -10.1,
+     "exits": {
+      "target": 26,
+      "stop": 26,
+      "close": 7
+     }
+    },
+    {
+     "or_minutes": 30,
+     "entry_until": "12:00",
+     "target_r": 1.0,
+     "stop": "low",
+     "trades": 59,
+     "win_rate": 0.525,
+     "total_eur": 2.17,
+     "avg_eur": 0.037,
+     "avg_r": -0.001,
+     "worst_drawdown_eur": -10.1,
+     "exits": {
+      "target": 26,
+      "stop": 26,
+      "close": 7
+     }
+    }
+   ],
+   "worst": [
+    {
+     "or_minutes": 15,
+     "entry_until": "15:00",
+     "target_r": 2.0,
+     "stop": "low",
+     "trades": 0
+    },
+    {
+     "or_minutes": 15,
+     "entry_until": "15:00",
+     "target_r": 3.0,
+     "stop": "mid",
+     "trades": 0
+    },
+    {
+     "or_minutes": 15,
+     "entry_until": "15:00",
+     "target_r": 3.0,
+     "stop": "low",
+     "trades": 0
+    }
+   ],
+   "current_rules": null,
+   "best_trades": [
+    {
+     "date": "2026-11-06",
+     "sym": "ASML.AS",
+     "entry": 1252.05,
+     "stop": 1233.0,
+     "exit": 1280.626,
+     "why": "target",
+     "r": 1.5,
+     "pnl_eur": 2.25,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-09",
+     "sym": "CBK.DE",
+     "entry": 39.673,
+     "stop": 38.83,
+     "exit": 39.77,
+     "why": "close",
+     "r": 0.12,
+     "pnl_eur": 0.173,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-10",
+     "sym": "ADS.DE",
+     "entry": 181.836,
+     "stop": 181.0,
+     "exit": 181.0,
+     "why": "stop",
+     "r": -1.0,
+     "pnl_eur": -0.568,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-11",
+     "sym": "ENR.DE",
+     "entry": 129.206,
+     "stop": 126.23,
+     "exit": 131.96,
+     "why": "close",
+     "r": 0.93,
+     "pnl_eur": 1.388,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-12",
+     "sym": "ZAL.DE",
+     "entry": 28.856,
+     "stop": 28.54,
+     "exit": 28.54,
+     "why": "stop",
+     "r": -1.0,
+     "pnl_eur": -1.351,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-13",
+     "sym": "MUV2.DE",
+     "entry": 591.118,
+     "stop": 587.0,
+     "exit": 594.0,
+     "why": "close",
+     "r": 0.7,
+     "pnl_eur": 0.602,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-16",
+     "sym": "RHM.DE",
+     "entry": 783.957,
+     "stop": 771.5,
+     "exit": 776.9,
+     "why": "close",
+     "r": -0.57,
+     "pnl_eur": -0.85,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-17",
+     "sym": "BBVA.MC",
+     "entry": 23.565,
+     "stop": 23.34,
+     "exit": 23.34,
+     "why": "stop",
+     "r": -1.0,
+     "pnl_eur": -1.178,
+     "at": "09:35"
+    },
+    {
+     "date": "2026-11-18",
+     "sym": "HNR1.DE",
+     "entry": 297.259,
+     "stop": 296.0,
+     "exit": 296.0,
+     "why": "stop",
+     "r": -1.0,
+     "pnl_eur": -0.523,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-19",
+     "sym": "ASML.AS",
+     "entry": 1305.661,
+     "stop": 1293.59,
+     "exit": 1323.768,
+     "why": "target",
+     "r": 1.5,
+     "pnl_eur": 1.713,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-20",
+     "sym": "BMW.DE",
+     "entry": 54.611,
+     "stop": 54.11,
+     "exit": 54.11,
+     "why": "stop",
+     "r": -1.0,
+     "pnl_eur": -1.133,
+     "at": "09:35"
+    },
+    {
+     "date": "2026-11-23",
+     "sym": "DBK.DE",
+     "entry": 29.691,
+     "stop": 29.31,
+     "exit": 30.262,
+     "why": "target",
+     "r": 1.5,
+     "pnl_eur": 2.25,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-24",
+     "sym": "HEN3.DE",
+     "entry": 86.397,
+     "stop": 86.05,
+     "exit": 86.918,
+     "why": "target",
+     "r": 1.5,
+     "pnl_eur": 0.745,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-25",
+     "sym": "BMW.DE",
+     "entry": 54.991,
+     "stop": 54.25,
+     "exit": 56.102,
+     "why": "target",
+     "r": 1.5,
+     "pnl_eur": 2.25,
+     "at": "09:30"
+    },
+    {
+     "date": "2026-11-26",
+     "sym": "SAP.DE",
+     "entry": 192.518,
+     "stop": 191.19,
+     "exit": 194.2,
+     "why": "close",
+     "r": 1.27,
+     "pnl_eur": 1.079,
+     "at": "09:30"
+    }
+   ]
+  },
+  "US": {
+   "symbols": 51,
+   "days": 60,
+   "best": [
+    {
+     "or_minutes": 15,
+     "entry_until": "11:00",
+     "target_r": 1.0,
+     "stop": "low",
+     "trades": 35,
+     "win_rate": 0.486,
+     "total_eur": -3.42,
+     "avg_eur": -0.098,
+     "avg_r": 0.077,
+     "worst_drawdown_eur": -8.54,
+     "exits": {
+      "target": 9,
+      "stop": 7,
+      "close": 19
+     }
+    },
+    {
+     "or_minutes": 15,
+     "entry_until": "12:30",
+     "target_r": 1.0,
+     "stop": "low",
+     "trades": 35,
+     "win_rate": 0.486,
+     "total_eur": -3.42,
+     "avg_eur": -0.098,
+     "avg_r": 0.077,
+     "worst_drawdown_eur": -8.54,
+     "exits": {
+      "target": 9,
+      "stop": 7,
+      "close": 19
+     }
+    },
+    {
+     "or_minutes": 15,
+     "entry_until": "15:30",
+     "target_r": 1.0,
+     "stop": "low",
+     "trades": 35,
+     "win_rate": 0.486,
+     "total_eur": -3.42,
+     "avg_eur": -0.098,
+     "avg_r": 0.077,
+     "worst_drawdown_eur": -8.54,
+     "exits": {
+      "target": 9,
+      "stop": 7,
+      "close": 19
+     }
+    },
+    {
+     "or_minutes": 30,
+     "entry_until": "11:00",
+     "target_r": 1.0,
+     "stop": "mid",
+     "trades": 27,
+     "win_rate": 0.481,
+     "total_eur": -5.01,
+     "avg_eur": -0.186,
+     "avg_r": 0.013,
+     "worst_drawdown_eur": -7.51,
+     "exits": {
+      "target": 9,
+      "stop": 8,
+      "close": 10
+     }
+    },
+    {
+     "or_minutes": 30,
+     "entry_until": "12:30",
+     "target_r": 1.0,
+     "stop": "mid",
+     "trades": 27,
+     "win_rate": 0.481,
+     "total_eur": -5.01,
+     "avg_eur": -0.186,
+     "avg_r": 0.013,
+     "worst_drawdown_eur": -7.51,
+     "exits": {
+      "target": 9,
+      "stop": 8,
+      "close": 10
+     }
+    }
+   ],
+   "worst": [
+    {
+     "or_minutes": 15,
+     "entry_until": "11:00",
+     "target_r": 3.0,
+     "stop": "mid",
+     "trades": 57,
+     "win_rate": 0.298,
+     "total_eur": -27.07,
+     "avg_eur": -0.475,
+     "avg_r": -0.168,
+     "worst_drawdown_eur": -29.15,
+     "exits": {
+      "target": 2,
+      "stop": 30,
+      "close": 25
+     }
+    },
+    {
+     "or_minutes": 15,
+     "entry_until": "12:30",
+     "target_r": 3.0,
+     "stop": "mid",
+     "trades": 57,
+     "win_rate": 0.298,
+     "total_eur": -27.07,
+     "avg_eur": -0.475,
+     "avg_r": -0.168,
+     "worst_drawdown_eur": -29.15,
+     "exits": {
+      "target": 2,
+      "stop": 30,
+      "close": 25
+     }
+    },
+    {
+     "or_minutes": 15,
+     "entry_until": "15:30",
+     "target_r": 3.0,
+     "stop": "mid",
+     "trades": 57,
+     "win_rate": 0.298,
+     "total_eur": -27.07,
+     "avg_eur": -0.475,
+     "avg_r": -0.168,
+     "worst_drawdown_eur": -29.15,
+     "exits": {
+      "target": 2,
+      "stop": 30,
+      "close": 25
+     }
+    }
+   ],
+   "current_rules": {
+    "or_minutes": 15,
+    "entry_until": "15:30",
+    "target_r": 2.0,
+    "stop": "mid",
+    "trades": 49,
+    "win_rate": 0.306,
+    "total_eur": -23.84,
+    "avg_eur": -0.487,
+    "avg_r": -0.161,
+    "worst_drawdown_eur": -24.08,
+    "exits": {
+     "target": 4,
+     "stop": 24,
+     "close": 21
+    }
+   },
+   "best_trades": [
+    {
+     "date": "2026-10-21",
+     "sym": "TSLA",
+     "entry": 387.633,
+     "stop": 380.51,
+     "exit": 385.465,
+     "why": "close",
+     "r": -0.3,
+     "pnl_eur": -0.603,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-10-22",
+     "sym": "VZ",
+     "entry": 44.569,
+     "stop": 43.77,
+     "exit": 45.18,
+     "why": "close",
+     "r": 0.76,
+     "pnl_eur": 0.767,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-10-26",
+     "sym": "MS",
+     "entry": 183.817,
+     "stop": 180.77,
+     "exit": 184.835,
+     "why": "close",
+     "r": 0.33,
+     "pnl_eur": 0.194,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-10-27",
+     "sym": "GM",
+     "entry": 80.116,
+     "stop": 78.37,
+     "exit": 80.655,
+     "why": "close",
+     "r": 0.31,
+     "pnl_eur": 0.225,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-10-29",
+     "sym": "NKE",
+     "entry": 38.408,
+     "stop": 37.49,
+     "exit": 38.465,
+     "why": "close",
+     "r": 0.06,
+     "pnl_eur": -0.084,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-10-30",
+     "sym": "ADBE",
+     "entry": 254.606,
+     "stop": 248.8,
+     "exit": 250.9,
+     "why": "close",
+     "r": -0.64,
+     "pnl_eur": -1.021,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-11-02",
+     "sym": "GE",
+     "entry": 314.553,
+     "stop": 308.17,
+     "exit": 315.145,
+     "why": "close",
+     "r": 0.09,
+     "pnl_eur": -0.072,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-11-03",
+     "sym": "ORCL",
+     "entry": 123.955,
+     "stop": 121.34,
+     "exit": 126.57,
+     "why": "target",
+     "r": 1.0,
+     "pnl_eur": 1.126,
+     "at": "09:50"
+    },
+    {
+     "date": "2026-11-04",
+     "sym": "ABNB",
+     "entry": 176.234,
+     "stop": 172.9,
+     "exit": 179.568,
+     "why": "target",
+     "r": 1.0,
+     "pnl_eur": 1.089,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-11-06",
+     "sym": "GE",
+     "entry": 320.949,
+     "stop": 315.05,
+     "exit": 322.47,
+     "why": "close",
+     "r": 0.26,
+     "pnl_eur": 0.122,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-11-09",
+     "sym": "CAT",
+     "entry": 585.277,
+     "stop": 572.04,
+     "exit": 598.514,
+     "why": "target",
+     "r": 1.0,
+     "pnl_eur": 1.148,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-11-13",
+     "sym": "SHOP",
+     "entry": 149.905,
+     "stop": 146.61,
+     "exit": 146.61,
+     "why": "stop",
+     "r": -1.0,
+     "pnl_eur": -1.5,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-11-18",
+     "sym": "DIS",
+     "entry": 119.094,
+     "stop": 116.65,
+     "exit": 121.538,
+     "why": "target",
+     "r": 1.0,
+     "pnl_eur": 1.117,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-11-24",
+     "sym": "PFE",
+     "entry": 28.071,
+     "stop": 27.37,
+     "exit": 28.564,
+     "why": "close",
+     "r": 0.7,
+     "pnl_eur": 0.782,
+     "at": "09:45"
+    },
+    {
+     "date": "2026-11-25",
+     "sym": "CVX",
+     "entry": 210.542,
+     "stop": 207.19,
+     "exit": 211.39,
+     "why": "close",
+     "r": 0.25,
+     "pnl_eur": 0.081,
+     "at": "09:45"
+    }
+   ]
+  }
+ }
+}

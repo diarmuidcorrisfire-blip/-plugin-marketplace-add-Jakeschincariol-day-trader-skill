@@ -1,0 +1,28 @@
+{
+ "EU_current_rules": {
+  "trades": 59,
+  "win_rate": 0.356,
+  "total_eur": -1.72,
+  "avg_eur": -0.029,
+  "avg_r": -0.11,
+  "worst_drawdown_eur": -14.51,
+  "exits": {
+   "target": 12,
+   "stop": 36,
+   "close": 11
+  }
+ },
+ "US_current_rules": {
+  "trades": 49,
+  "win_rate": 0.306,
+  "total_eur": -23.84,
+  "avg_eur": -0.487,
+  "avg_r": -0.161,
+  "worst_drawdown_eur": -24.08,
+  "exits": {
+   "target": 4,
+   "stop": 24,
+   "close": 21
+  }
+ }
+}

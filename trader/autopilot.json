@@ -6,15 +6,26 @@
   "max_trades_per_day": 1,
   "loss_cap_eur": 15,
   "loss_cap_window_days": 31,
-  "never_trade": ["NVDA_US_EQ", "NVDd_EQ", "NVDA", "NVD.DE"],
+  "never_trade": [
+    "NVDA_US_EQ",
+    "NVDd_EQ",
+    "NVDA",
+    "NVD.DE"
+  ],
   "_note": "Autopilot only ever sells shares it bought itself; never_trade and any ticker already held are skipped.",
   "markets": {
     "EU": {
       "universe": "autopilot/eu_universe.json",
       "tz": "Europe/Berlin",
       "currency": "EUR",
-      "or": ["09:05", "09:30"],
-      "entry": ["09:45", "15:30"],
+      "or": [
+        "09:05",
+        "09:30"
+      ],
+      "entry": [
+        "09:45",
+        "15:30"
+      ],
       "flat_by": "17:05",
       "min_price": 5,
       "min_target_pct": 0,
@@ -25,12 +36,20 @@
       "universe": "autopilot/us_universe.json",
       "tz": "America/New_York",
       "currency": "USD",
-      "or": ["09:30", "09:45"],
-      "entry": ["10:00", "14:30"],
+      "or": [
+        "09:30",
+        "09:45"
+      ],
+      "entry": [
+        "10:00",
+        "14:30"
+      ],
       "flat_by": "15:10",
       "min_price": 5,
       "min_target_pct": 1.5,
-      "fx_fee_pct": 0.15
+      "fx_fee_pct": 0.15,
+      "enabled": false,
+      "_disabled_reason": "Backtest Nov 26: current US rules lost EUR 23.84 over 60 days (49 trades, 31% win rate). Re-enable only on user request."
     }
   }
 }
