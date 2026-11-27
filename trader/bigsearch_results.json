@@ -1,0 +1,2081 @@
+{
+ "generated": "2026-11-27T01:57",
+ "split": "2022-01-01",
+ "markets": {
+  "EU": {
+   "stocks": 822,
+   "variants": 2376,
+   "kept": 2331,
+   "top30_by_train": [
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "time",
+      "hold": 5,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 50d avg, exit time, max 5d, stop 8%",
+     "n_train": 14038,
+     "n_test": 14795,
+     "train_avg_pct": 0.214,
+     "train_t": 5.57,
+     "test_avg_pct": 0.035,
+     "test_t": 0.89,
+     "test_win": 0.506,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2082,
+      "test_total_per100": 173.0,
+      "windows": 252,
+      "profitable_windows": 123,
+      "worst_31d_per100": -97.0,
+      "median_31d_per100": -0.63,
+      "by_year": {
+       "2022": 113.6,
+       "2023": 73.4,
+       "2024": 56.4,
+       "2025": 35.0,
+       "2026": -105.4
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma10",
+      "hold": 5,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma10, max 5d, stop 8%",
+     "n_train": 14350,
+     "n_test": 15113,
+     "train_avg_pct": 0.197,
+     "train_t": 5.49,
+     "test_avg_pct": 0.064,
+     "test_t": 1.75,
+     "test_win": 0.466,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2415,
+      "test_total_per100": 475.6,
+      "windows": 252,
+      "profitable_windows": 145,
+      "worst_31d_per100": -80.8,
+      "median_31d_per100": 4.69,
+      "by_year": {
+       "2022": 102.4,
+       "2023": 85.5,
+       "2024": -3.3,
+       "2025": 244.0,
+       "2026": 47.0
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "time",
+      "hold": 20,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 200d avg, exit time, max 20d, stop 15%",
+     "n_train": 6084,
+     "n_test": 6242,
+     "train_avg_pct": 0.6,
+     "train_t": 5.34,
+     "test_avg_pct": 0.333,
+     "test_t": 2.7,
+     "test_win": 0.519,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 615,
+      "test_total_per100": 112.3,
+      "windows": 252,
+      "profitable_windows": 138,
+      "worst_31d_per100": -134.1,
+      "median_31d_per100": 5.98,
+      "by_year": {
+       "2022": -100.1,
+       "2023": 23.3,
+       "2024": 37.6,
+       "2025": 109.7,
+       "2026": 41.8
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma20",
+      "hold": 5,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma20, max 5d, stop 8%",
+     "n_train": 14123,
+     "n_test": 14866,
+     "train_avg_pct": 0.197,
+     "train_t": 5.24,
+     "test_avg_pct": 0.043,
+     "test_t": 1.13,
+     "test_win": 0.498,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2210,
+      "test_total_per100": 477.7,
+      "windows": 252,
+      "profitable_windows": 141,
+      "worst_31d_per100": -76.7,
+      "median_31d_per100": 6.68,
+      "by_year": {
+       "2022": 137.0,
+       "2023": 161.1,
+       "2024": 128.7,
+       "2025": 165.2,
+       "2026": -114.3
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "time",
+      "hold": 5,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 200d avg, exit time, max 5d, stop 8%",
+     "n_train": 11843,
+     "n_test": 12064,
+     "train_avg_pct": 0.208,
+     "train_t": 5.24,
+     "test_avg_pct": 0.038,
+     "test_t": 0.91,
+     "test_win": 0.508,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2060,
+      "test_total_per100": 389.0,
+      "windows": 252,
+      "profitable_windows": 148,
+      "worst_31d_per100": -146.9,
+      "median_31d_per100": 8.4,
+      "by_year": {
+       "2022": 54.9,
+       "2023": 138.5,
+       "2024": 8.7,
+       "2025": 132.4,
+       "2026": 54.6
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma20",
+      "hold": 10,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma20, max 10d, stop 15%",
+     "n_train": 8903,
+     "n_test": 8985,
+     "train_avg_pct": 0.317,
+     "train_t": 5.24,
+     "test_avg_pct": 0.172,
+     "test_t": 2.63,
+     "test_win": 0.458,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1404,
+      "test_total_per100": 314.9,
+      "windows": 252,
+      "profitable_windows": 137,
+      "worst_31d_per100": -94.9,
+      "median_31d_per100": 2.42,
+      "by_year": {
+       "2022": -43.2,
+       "2023": 180.0,
+       "2024": 8.2,
+       "2025": 146.5,
+       "2026": 23.4
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 10,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma10, max 10d, stop 15%",
+     "n_train": 9458,
+     "n_test": 9527,
+     "train_avg_pct": 0.279,
+     "train_t": 5.2,
+     "test_avg_pct": 0.159,
+     "test_t": 2.77,
+     "test_win": 0.39,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1666,
+      "test_total_per100": 503.3,
+      "windows": 252,
+      "profitable_windows": 146,
+      "worst_31d_per100": -76.9,
+      "median_31d_per100": 9.05,
+      "by_year": {
+       "2022": -74.8,
+       "2023": 158.7,
+       "2024": 149.9,
+       "2025": 157.4,
+       "2026": 112.0
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 5,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma10, max 5d, stop 8%",
+     "n_train": 12099,
+     "n_test": 12334,
+     "train_avg_pct": 0.192,
+     "train_t": 5.16,
+     "test_avg_pct": 0.055,
+     "test_t": 1.41,
+     "test_win": 0.467,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2366,
+      "test_total_per100": 463.1,
+      "windows": 252,
+      "profitable_windows": 147,
+      "worst_31d_per100": -88.3,
+      "median_31d_per100": 9.21,
+      "by_year": {
+       "2022": -66.9,
+       "2023": 105.8,
+       "2024": 107.5,
+       "2025": 219.1,
+       "2026": 97.7
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma20",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma20, max 10d, no stop",
+     "n_train": 8903,
+     "n_test": 8983,
+     "train_avg_pct": 0.313,
+     "train_t": 5.15,
+     "test_avg_pct": 0.17,
+     "test_t": 2.57,
+     "test_win": 0.458,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1402,
+      "test_total_per100": 326.2,
+      "windows": 252,
+      "profitable_windows": 139,
+      "worst_31d_per100": -95.1,
+      "median_31d_per100": 2.47,
+      "by_year": {
+       "2022": -32.0,
+       "2023": 184.2,
+       "2024": -1.4,
+       "2025": 154.5,
+       "2026": 20.9
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma10",
+      "hold": 5,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma10, max 5d, stop 15%",
+     "n_train": 14342,
+     "n_test": 15087,
+     "train_avg_pct": 0.186,
+     "train_t": 5.14,
+     "test_avg_pct": 0.072,
+     "test_t": 1.94,
+     "test_win": 0.469,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2408,
+      "test_total_per100": 469.0,
+      "windows": 252,
+      "profitable_windows": 151,
+      "worst_31d_per100": -97.0,
+      "median_31d_per100": 6.84,
+      "by_year": {
+       "2022": 124.7,
+       "2023": 110.0,
+       "2024": 17.9,
+       "2025": 225.5,
+       "2026": -9.2
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 5,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma10, max 5d, stop 15%",
+     "n_train": 12088,
+     "n_test": 12321,
+     "train_avg_pct": 0.193,
+     "train_t": 5.14,
+     "test_avg_pct": 0.052,
+     "test_t": 1.31,
+     "test_win": 0.469,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2361,
+      "test_total_per100": 425.6,
+      "windows": 252,
+      "profitable_windows": 148,
+      "worst_31d_per100": -91.4,
+      "median_31d_per100": 10.07,
+      "by_year": {
+       "2022": -110.0,
+       "2023": 136.0,
+       "2024": 129.0,
+       "2025": 182.9,
+       "2026": 87.8
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma10",
+      "hold": 5,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma10, max 5d, no stop",
+     "n_train": 14342,
+     "n_test": 15086,
+     "train_avg_pct": 0.187,
+     "train_t": 5.12,
+     "test_avg_pct": 0.065,
+     "test_t": 1.73,
+     "test_win": 0.469,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2407,
+      "test_total_per100": 468.6,
+      "windows": 252,
+      "profitable_windows": 153,
+      "worst_31d_per100": -95.3,
+      "median_31d_per100": 5.85,
+      "by_year": {
+       "2022": 142.7,
+       "2023": 103.3,
+       "2024": 17.9,
+       "2025": 222.4,
+       "2026": -17.7
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 10,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma10, max 10d, stop 8%",
+     "n_train": 9476,
+     "n_test": 9552,
+     "train_avg_pct": 0.266,
+     "train_t": 5.09,
+     "test_avg_pct": 0.165,
+     "test_t": 2.93,
+     "test_win": 0.387,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1665,
+      "test_total_per100": 543.5,
+      "windows": 252,
+      "profitable_windows": 152,
+      "worst_31d_per100": -78.8,
+      "median_31d_per100": 9.09,
+      "by_year": {
+       "2022": -3.4,
+       "2023": 158.3,
+       "2024": 145.8,
+       "2025": 145.7,
+       "2026": 97.0
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma10, max 10d, no stop",
+     "n_train": 9458,
+     "n_test": 9526,
+     "train_avg_pct": 0.274,
+     "train_t": 5.08,
+     "test_avg_pct": 0.154,
+     "test_t": 2.65,
+     "test_win": 0.39,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1664,
+      "test_total_per100": 510.3,
+      "windows": 252,
+      "profitable_windows": 145,
+      "worst_31d_per100": -76.8,
+      "median_31d_per100": 8.45,
+      "by_year": {
+       "2022": -48.3,
+       "2023": 160.2,
+       "2024": 139.6,
+       "2025": 157.6,
+       "2026": 101.3
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma10",
+      "hold": 10,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma10, max 10d, stop 15%",
+     "n_train": 11260,
+     "n_test": 11721,
+     "train_avg_pct": 0.263,
+     "train_t": 5.07,
+     "test_avg_pct": 0.13,
+     "test_t": 2.46,
+     "test_win": 0.385,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1713,
+      "test_total_per100": 350.2,
+      "windows": 252,
+      "profitable_windows": 136,
+      "worst_31d_per100": -86.7,
+      "median_31d_per100": 4.98,
+      "by_year": {
+       "2022": 20.9,
+       "2023": 114.0,
+       "2024": -49.6,
+       "2025": 115.6,
+       "2026": 149.3
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 20,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma10, max 20d, stop 15%",
+     "n_train": 8242,
+     "n_test": 8307,
+     "train_avg_pct": 0.318,
+     "train_t": 5.06,
+     "test_avg_pct": 0.198,
+     "test_t": 2.85,
+     "test_win": 0.371,
+     "portfolio_test": {
+      "slots": 5,
+      "test_trades": 721,
+      "test_total_per100": 413.8,
+      "windows": 252,
+      "profitable_windows": 143,
+      "worst_31d_per100": -58.4,
+      "median_31d_per100": 3.35,
+      "by_year": {
+       "2022": 13.8,
+       "2023": 128.5,
+       "2024": -25.7,
+       "2025": 180.5,
+       "2026": 116.6
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 5,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma10, max 5d, no stop",
+     "n_train": 12088,
+     "n_test": 12320,
+     "train_avg_pct": 0.191,
+     "train_t": 5.05,
+     "test_avg_pct": 0.049,
+     "test_t": 1.23,
+     "test_win": 0.469,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2360,
+      "test_total_per100": 456.2,
+      "windows": 252,
+      "profitable_windows": 151,
+      "worst_31d_per100": -91.4,
+      "median_31d_per100": 10.07,
+      "by_year": {
+       "2022": -93.2,
+       "2023": 125.4,
+       "2024": 136.7,
+       "2025": 202.8,
+       "2026": 84.5
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma20",
+      "hold": 10,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma20, max 10d, stop 8%",
+     "n_train": 8936,
+     "n_test": 9028,
+     "train_avg_pct": 0.295,
+     "train_t": 5.03,
+     "test_avg_pct": 0.166,
+     "test_t": 2.62,
+     "test_win": 0.452,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1409,
+      "test_total_per100": 417.4,
+      "windows": 252,
+      "profitable_windows": 136,
+      "worst_31d_per100": -76.7,
+      "median_31d_per100": 2.76,
+      "by_year": {
+       "2022": -24.9,
+       "2023": 195.8,
+       "2024": 37.0,
+       "2025": 147.6,
+       "2026": 61.9
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma10",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma10, max 10d, no stop",
+     "n_train": 11260,
+     "n_test": 11720,
+     "train_avg_pct": 0.262,
+     "train_t": 5.02,
+     "test_avg_pct": 0.121,
+     "test_t": 2.25,
+     "test_win": 0.385,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1714,
+      "test_total_per100": 351.7,
+      "windows": 252,
+      "profitable_windows": 132,
+      "worst_31d_per100": -86.7,
+      "median_31d_per100": 4.3,
+      "by_year": {
+       "2022": 46.2,
+       "2023": 105.7,
+       "2024": -58.8,
+       "2025": 111.7,
+       "2026": 147.0
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "time",
+      "hold": 20,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 200d avg, exit time, max 20d, stop 8%",
+     "n_train": 6204,
+     "n_test": 6415,
+     "train_avg_pct": 0.515,
+     "train_t": 5.02,
+     "test_avg_pct": 0.357,
+     "test_t": 3.14,
+     "test_win": 0.483,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 702,
+      "test_total_per100": 106.3,
+      "windows": 252,
+      "profitable_windows": 129,
+      "worst_31d_per100": -114.2,
+      "median_31d_per100": 1.46,
+      "by_year": {
+       "2022": -105.1,
+       "2023": -58.7,
+       "2024": -13.3,
+       "2025": 186.5,
+       "2026": 96.9
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma10",
+      "hold": 10,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma10, max 10d, stop 8%",
+     "n_train": 11287,
+     "n_test": 11760,
+     "train_avg_pct": 0.251,
+     "train_t": 4.98,
+     "test_avg_pct": 0.128,
+     "test_t": 2.47,
+     "test_win": 0.382,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1719,
+      "test_total_per100": 315.1,
+      "windows": 252,
+      "profitable_windows": 137,
+      "worst_31d_per100": -92.3,
+      "median_31d_per100": 5.6,
+      "by_year": {
+       "2022": -98.4,
+       "2023": 123.1,
+       "2024": -9.2,
+       "2025": 146.9,
+       "2026": 152.7
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 20,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma10, max 20d, stop 8%",
+     "n_train": 8268,
+     "n_test": 8333,
+     "train_avg_pct": 0.308,
+     "train_t": 4.97,
+     "test_avg_pct": 0.213,
+     "test_t": 3.12,
+     "test_win": 0.369,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1430,
+      "test_total_per100": 490.1,
+      "windows": 252,
+      "profitable_windows": 136,
+      "worst_31d_per100": -79.5,
+      "median_31d_per100": 4.64,
+      "by_year": {
+       "2022": -4.8,
+       "2023": 58.3,
+       "2024": 42.1,
+       "2025": 311.8,
+       "2026": 82.7
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma20",
+      "hold": 20,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma20, max 20d, stop 15%",
+     "n_train": 6908,
+     "n_test": 7022,
+     "train_avg_pct": 0.421,
+     "train_t": 4.97,
+     "test_avg_pct": 0.305,
+     "test_t": 3.15,
+     "test_win": 0.362,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 997,
+      "test_total_per100": 252.6,
+      "windows": 252,
+      "profitable_windows": 119,
+      "worst_31d_per100": -96.7,
+      "median_31d_per100": -2.11,
+      "by_year": {
+       "2022": 43.6,
+       "2023": 80.7,
+       "2024": 36.5,
+       "2025": 313.1,
+       "2026": -221.3
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 20,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma10, max 20d, no stop",
+     "n_train": 8242,
+     "n_test": 8305,
+     "train_avg_pct": 0.312,
+     "train_t": 4.93,
+     "test_avg_pct": 0.193,
+     "test_t": 2.75,
+     "test_win": 0.371,
+     "portfolio_test": {
+      "slots": 5,
+      "test_trades": 719,
+      "test_total_per100": 427.5,
+      "windows": 252,
+      "profitable_windows": 145,
+      "worst_31d_per100": -58.3,
+      "median_31d_per100": 3.41,
+      "by_year": {
+       "2022": 29.5,
+       "2023": 126.5,
+       "2024": -25.7,
+       "2025": 180.5,
+       "2026": 116.6
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma20",
+      "hold": 10,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma20, max 10d, stop 8%",
+     "n_train": 10624,
+     "n_test": 11110,
+     "train_avg_pct": 0.274,
+     "train_t": 4.86,
+     "test_avg_pct": 0.11,
+     "test_t": 1.89,
+     "test_win": 0.445,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 448,
+      "test_total_per100": 84.7,
+      "windows": 252,
+      "profitable_windows": 128,
+      "worst_31d_per100": -43.9,
+      "median_31d_per100": 0.08,
+      "by_year": {
+       "2022": 27.3,
+       "2023": -11.0,
+       "2024": -38.3,
+       "2025": 106.0,
+       "2026": 0.7
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "ma20",
+      "hold": 20,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 200d avg, exit ma20, max 20d, no stop",
+     "n_train": 6908,
+     "n_test": 7017,
+     "train_avg_pct": 0.413,
+     "train_t": 4.85,
+     "test_avg_pct": 0.303,
+     "test_t": 3.09,
+     "test_win": 0.362,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 994,
+      "test_total_per100": 309.9,
+      "windows": 252,
+      "profitable_windows": 125,
+      "worst_31d_per100": -96.7,
+      "median_31d_per100": -0.36,
+      "by_year": {
+       "2022": 82.3,
+       "2023": 94.2,
+       "2024": 38.8,
+       "2025": 312.1,
+       "2026": -217.6
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "time",
+      "hold": 5,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 200d avg, exit time, max 5d, stop 15%",
+     "n_train": 11829,
+     "n_test": 12043,
+     "train_avg_pct": 0.198,
+     "train_t": 4.84,
+     "test_avg_pct": 0.037,
+     "test_t": 0.86,
+     "test_win": 0.512,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 2021,
+      "test_total_per100": 135.4,
+      "windows": 252,
+      "profitable_windows": 129,
+      "worst_31d_per100": -139.8,
+      "median_31d_per100": 1.69,
+      "by_year": {
+       "2022": -8.8,
+       "2023": 120.9,
+       "2024": 71.0,
+       "2025": 52.4,
+       "2026": -100.1
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "GAPDN",
+      "drop": 3,
+      "trend": 50,
+      "exit": "time",
+      "hold": 5,
+      "stop": 0,
+      "n": 3
+     },
+     "rule": "Big down day (-3%) above 50d avg, exit time, max 5d, no stop",
+     "n_train": 3558,
+     "n_test": 4173,
+     "train_avg_pct": 0.571,
+     "train_t": 4.84,
+     "test_avg_pct": 0.0,
+     "test_t": 0.0,
+     "test_win": 0.5,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 577,
+      "test_total_per100": 26.4,
+      "windows": 252,
+      "profitable_windows": 145,
+      "worst_31d_per100": -65.6,
+      "median_31d_per100": 3.73,
+      "by_year": {
+       "2022": -88.1,
+       "2023": -4.7,
+       "2024": 87.6,
+       "2025": 118.9,
+       "2026": -87.3
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma20",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma20, max 10d, no stop",
+     "n_train": 10582,
+     "n_test": 11046,
+     "train_avg_pct": 0.282,
+     "train_t": 4.81,
+     "test_avg_pct": 0.111,
+     "test_t": 1.81,
+     "test_win": 0.452,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1420,
+      "test_total_per100": 275.2,
+      "windows": 252,
+      "profitable_windows": 145,
+      "worst_31d_per100": -114.3,
+      "median_31d_per100": 7.59,
+      "by_year": {
+       "2022": 109.9,
+       "2023": 160.3,
+       "2024": -110.4,
+       "2025": 177.9,
+       "2026": -62.5
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma20",
+      "hold": 10,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma20, max 10d, stop 15%",
+     "n_train": 10582,
+     "n_test": 11048,
+     "train_avg_pct": 0.282,
+     "train_t": 4.81,
+     "test_avg_pct": 0.12,
+     "test_t": 2.0,
+     "test_win": 0.452,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1421,
+      "test_total_per100": 259.5,
+      "windows": 252,
+      "profitable_windows": 145,
+      "worst_31d_per100": -114.0,
+      "median_31d_per100": 7.08,
+      "by_year": {
+       "2022": 101.1,
+       "2023": 162.5,
+       "2024": -114.8,
+       "2025": 164.4,
+       "2026": -53.7
+      }
+     }
+    }
+   ]
+  },
+  "US": {
+   "stocks": 5246,
+   "variants": 2376,
+   "kept": 2376,
+   "top30_by_train": [
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "time",
+      "hold": 20,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 50d avg, exit time, max 20d, stop 15%",
+     "n_train": 35284,
+     "n_test": 48293,
+     "train_avg_pct": 0.666,
+     "train_t": 10.26,
+     "test_avg_pct": 0.14,
+     "test_t": 2.42,
+     "test_win": 0.49,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 627,
+      "test_total_per100": 419.5,
+      "windows": 252,
+      "profitable_windows": 143,
+      "worst_31d_per100": -169.5,
+      "median_31d_per100": 5.53,
+      "by_year": {
+       "2022": -97.1,
+       "2023": 88.9,
+       "2024": 463.7,
+       "2025": 0.5,
+       "2026": -36.6
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "time",
+      "hold": 20,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 50d avg, exit time, max 20d, no stop",
+     "n_train": 35014,
+     "n_test": 47819,
+     "train_avg_pct": 0.674,
+     "train_t": 9.59,
+     "test_avg_pct": 0.132,
+     "test_t": 2.07,
+     "test_win": 0.502,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 590,
+      "test_total_per100": 73.3,
+      "windows": 252,
+      "profitable_windows": 143,
+      "worst_31d_per100": -200.0,
+      "median_31d_per100": 15.68,
+      "by_year": {
+       "2022": -305.0,
+       "2023": 82.2,
+       "2024": 273.9,
+       "2025": -30.2,
+       "2026": 52.3
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "time",
+      "hold": 20,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 200d avg, exit time, max 20d, stop 15%",
+     "n_train": 30804,
+     "n_test": 40274,
+     "train_avg_pct": 0.615,
+     "train_t": 8.84,
+     "test_avg_pct": 0.034,
+     "test_t": 0.56,
+     "test_win": 0.486,
+     "portfolio_test": {
+      "slots": 5,
+      "test_trades": 314,
+      "test_total_per100": 152.8,
+      "windows": 252,
+      "profitable_windows": 132,
+      "worst_31d_per100": -69.3,
+      "median_31d_per100": 2.73,
+      "by_year": {
+       "2022": -89.8,
+       "2023": 24.1,
+       "2024": 191.6,
+       "2025": 59.0,
+       "2026": -32.1
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "time",
+      "hold": 20,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 50d avg, exit time, max 20d, stop 8%",
+     "n_train": 36660,
+     "n_test": 50756,
+     "train_avg_pct": 0.49,
+     "train_t": 8.37,
+     "test_avg_pct": 0.033,
+     "test_t": 0.66,
+     "test_win": 0.434,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 234,
+      "test_total_per100": -42.0,
+      "windows": 252,
+      "profitable_windows": 117,
+      "worst_31d_per100": -57.6,
+      "median_31d_per100": -2.43,
+      "by_year": {
+       "2022": -67.1,
+       "2023": 23.6,
+       "2024": 33.0,
+       "2025": -29.5,
+       "2026": -2.1
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "time",
+      "hold": 20,
+      "stop": 8
+     },
+     "rule": "Breakout 20d high above 200d avg, exit time, max 20d, stop 8%",
+     "n_train": 31948,
+     "n_test": 42217,
+     "train_avg_pct": 0.474,
+     "train_t": 7.55,
+     "test_avg_pct": -0.053,
+     "test_t": -0.98,
+     "test_win": 0.434,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 760,
+      "test_total_per100": -85.9,
+      "windows": 252,
+      "profitable_windows": 119,
+      "worst_31d_per100": -185.3,
+      "median_31d_per100": -3.49,
+      "by_year": {
+       "2022": -142.3,
+       "2023": 88.1,
+       "2024": 292.6,
+       "2025": -228.0,
+       "2026": -96.2
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 200,
+      "exit": "time",
+      "hold": 20,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 200d avg, exit time, max 20d, no stop",
+     "n_train": 30589,
+     "n_test": 39923,
+     "train_avg_pct": 0.528,
+     "train_t": 7.02,
+     "test_avg_pct": 0.028,
+     "test_t": 0.42,
+     "test_win": 0.497,
+     "portfolio_test": {
+      "slots": 5,
+      "test_trades": 295,
+      "test_total_per100": 249.1,
+      "windows": 252,
+      "profitable_windows": 151,
+      "worst_31d_per100": -64.9,
+      "median_31d_per100": 5.75,
+      "by_year": {
+       "2022": -103.8,
+       "2023": -40.5,
+       "2024": 234.6,
+       "2025": 5.4,
+       "2026": 153.4
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "time",
+      "hold": 10,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 50d avg, exit time, max 10d, stop 15%",
+     "n_train": 49604,
+     "n_test": 67167,
+     "train_avg_pct": 0.274,
+     "train_t": 6.9,
+     "test_avg_pct": -0.173,
+     "test_t": -4.82,
+     "test_win": 0.487,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1153,
+      "test_total_per100": 86.6,
+      "windows": 252,
+      "profitable_windows": 125,
+      "worst_31d_per100": -158.1,
+      "median_31d_per100": -0.54,
+      "by_year": {
+       "2022": -209.9,
+       "2023": 267.1,
+       "2024": 198.8,
+       "2025": -138.0,
+       "2026": -31.3
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "time",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Breakout 20d high above 50d avg, exit time, max 10d, no stop",
+     "n_train": 49477,
+     "n_test": 66953,
+     "train_avg_pct": 0.278,
+     "train_t": 6.73,
+     "test_avg_pct": -0.173,
+     "test_t": -4.37,
+     "test_win": 0.491,
+     "portfolio_test": {
+      "slots": 5,
+      "test_trades": 560,
+      "test_total_per100": 301.0,
+      "windows": 252,
+      "profitable_windows": 139,
+      "worst_31d_per100": -128.5,
+      "median_31d_per100": 5.24,
+      "by_year": {
+       "2022": 68.0,
+       "2023": 34.1,
+       "2024": 145.5,
+       "2025": 101.0,
+       "2026": -47.7
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 3,
+      "lvl": 5,
+      "trend": 200,
+      "exit": "ma5",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(3)<5 above 200d avg, exit ma5, max 10d, no stop",
+     "n_train": 3969,
+     "n_test": 5042,
+     "train_avg_pct": 0.581,
+     "train_t": 6.6,
+     "test_avg_pct": 0.076,
+     "test_t": 0.98,
+     "test_win": 0.619,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1494,
+      "test_total_per100": 24.0,
+      "windows": 252,
+      "profitable_windows": 146,
+      "worst_31d_per100": -126.4,
+      "median_31d_per100": 5.01,
+      "by_year": {
+       "2022": -224.0,
+       "2023": 46.9,
+       "2024": 180.7,
+       "2025": 93.7,
+       "2026": -73.3
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 55,
+      "trend": 200,
+      "exit": "time",
+      "hold": 20,
+      "stop": 15
+     },
+     "rule": "Breakout 55d high above 200d avg, exit time, max 20d, stop 15%",
+     "n_train": 23399,
+     "n_test": 29748,
+     "train_avg_pct": 0.523,
+     "train_t": 6.55,
+     "test_avg_pct": -0.018,
+     "test_t": -0.25,
+     "test_win": 0.486,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 191,
+      "test_total_per100": 175.8,
+      "windows": 252,
+      "profitable_windows": 147,
+      "worst_31d_per100": -64.8,
+      "median_31d_per100": 3.01,
+      "by_year": {
+       "2022": -28.4,
+       "2023": 107.3,
+       "2024": 173.1,
+       "2025": -61.2,
+       "2026": -14.9
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 10,
+      "trend": 200,
+      "exit": "ma5",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<10 above 200d avg, exit ma5, max 10d, no stop",
+     "n_train": 4612,
+     "n_test": 5815,
+     "train_avg_pct": 0.551,
+     "train_t": 6.52,
+     "test_avg_pct": 0.073,
+     "test_t": 1.01,
+     "test_win": 0.607,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 559,
+      "test_total_per100": -13.5,
+      "windows": 252,
+      "profitable_windows": 128,
+      "worst_31d_per100": -110.2,
+      "median_31d_per100": 0.57,
+      "by_year": {
+       "2022": -40.1,
+       "2023": 80.8,
+       "2024": 25.9,
+       "2025": 55.0,
+       "2026": -135.2
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 20,
+      "trend": 200,
+      "exit": "rsi70",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<20 above 200d avg, exit rsi70, max 10d, no stop",
+     "n_train": 18326,
+     "n_test": 24843,
+     "train_avg_pct": 0.399,
+     "train_t": 6.5,
+     "test_avg_pct": 0.18,
+     "test_t": 3.48,
+     "test_win": 0.545,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 374,
+      "test_total_per100": 15.0,
+      "windows": 252,
+      "profitable_windows": 135,
+      "worst_31d_per100": -50.6,
+      "median_31d_per100": 1.52,
+      "by_year": {
+       "2022": 52.1,
+       "2023": -19.6,
+       "2024": 8.8,
+       "2025": 32.4,
+       "2026": -58.7
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 5,
+      "trend": 200,
+      "exit": "ma5",
+      "hold": 10,
+      "stop": 20
+     },
+     "rule": "Dip-buy RSI(4)<5 above 200d avg, exit ma5, max 10d, stop 20%",
+     "n_train": 774,
+     "n_test": 959,
+     "train_avg_pct": 1.103,
+     "train_t": 6.47,
+     "test_avg_pct": 0.184,
+     "test_t": 1.21,
+     "test_win": 0.636,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 631,
+      "test_total_per100": 7.3,
+      "windows": 252,
+      "profitable_windows": 149,
+      "worst_31d_per100": -102.7,
+      "median_31d_per100": 3.88,
+      "by_year": {
+       "2022": 12.5,
+       "2023": -5.3,
+       "2024": 58.0,
+       "2025": -83.7,
+       "2026": 25.9
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 15,
+      "trend": 200,
+      "exit": "rsi50",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<15 above 200d avg, exit rsi50, max 10d, no stop",
+     "n_train": 11032,
+     "n_test": 14540,
+     "train_avg_pct": 0.416,
+     "train_t": 6.26,
+     "test_avg_pct": 0.139,
+     "test_t": 2.48,
+     "test_win": 0.623,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1515,
+      "test_total_per100": 235.7,
+      "windows": 252,
+      "profitable_windows": 137,
+      "worst_31d_per100": -196.9,
+      "median_31d_per100": 6.64,
+      "by_year": {
+       "2022": -14.1,
+       "2023": 50.1,
+       "2024": 279.0,
+       "2025": -26.8,
+       "2026": -52.5
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 10,
+      "trend": 200,
+      "exit": "rsi50",
+      "hold": 5,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<10 above 200d avg, exit rsi50, max 5d, no stop",
+     "n_train": 4701,
+     "n_test": 6017,
+     "train_avg_pct": 0.541,
+     "train_t": 6.19,
+     "test_avg_pct": -0.008,
+     "test_t": -0.1,
+     "test_win": 0.537,
+     "portfolio_test": {
+      "slots": 5,
+      "test_trades": 898,
+      "test_total_per100": -237.0,
+      "windows": 252,
+      "profitable_windows": 132,
+      "worst_31d_per100": -77.5,
+      "median_31d_per100": 0.94,
+      "by_year": {
+       "2022": -95.2,
+       "2023": -11.3,
+       "2024": 0.2,
+       "2025": -19.4,
+       "2026": -111.4
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 15,
+      "trend": 200,
+      "exit": "ma5",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<15 above 200d avg, exit ma5, max 10d, no stop",
+     "n_train": 11331,
+     "n_test": 15087,
+     "train_avg_pct": 0.336,
+     "train_t": 6.18,
+     "test_avg_pct": 0.123,
+     "test_t": 2.65,
+     "test_win": 0.616,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 623,
+      "test_total_per100": 46.6,
+      "windows": 252,
+      "profitable_windows": 117,
+      "worst_31d_per100": -57.5,
+      "median_31d_per100": -1.28,
+      "by_year": {
+       "2022": -64.4,
+       "2023": 33.6,
+       "2024": 125.6,
+       "2025": 83.2,
+       "2026": -131.3
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 20,
+      "trend": 200,
+      "exit": "rsi70",
+      "hold": 10,
+      "stop": 20
+     },
+     "rule": "Dip-buy RSI(4)<20 above 200d avg, exit rsi70, max 10d, stop 20%",
+     "n_train": 18472,
+     "n_test": 24970,
+     "train_avg_pct": 0.372,
+     "train_t": 6.13,
+     "test_avg_pct": 0.117,
+     "test_t": 2.28,
+     "test_win": 0.543,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 379,
+      "test_total_per100": -71.7,
+      "windows": 252,
+      "profitable_windows": 120,
+      "worst_31d_per100": -75.6,
+      "median_31d_per100": -1.6,
+      "by_year": {
+       "2022": 112.3,
+       "2023": -73.3,
+       "2024": -29.3,
+       "2025": -28.2,
+       "2026": -53.2
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 3,
+      "lvl": 15,
+      "trend": 200,
+      "exit": "rsi70",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(3)<15 above 200d avg, exit rsi70, max 10d, no stop",
+     "n_train": 21753,
+     "n_test": 29252,
+     "train_avg_pct": 0.306,
+     "train_t": 5.98,
+     "test_avg_pct": 0.079,
+     "test_t": 1.75,
+     "test_win": 0.588,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1395,
+      "test_total_per100": 426.9,
+      "windows": 252,
+      "profitable_windows": 151,
+      "worst_31d_per100": -172.3,
+      "median_31d_per100": 13.34,
+      "by_year": {
+       "2022": -232.0,
+       "2023": 159.5,
+       "2024": 207.5,
+       "2025": 125.6,
+       "2026": 166.4
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 3,
+      "lvl": 5,
+      "trend": 200,
+      "exit": "rsi50",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(3)<5 above 200d avg, exit rsi50, max 10d, no stop",
+     "n_train": 3957,
+     "n_test": 5010,
+     "train_avg_pct": 0.615,
+     "train_t": 5.96,
+     "test_avg_pct": 0.057,
+     "test_t": 0.65,
+     "test_win": 0.623,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1347,
+      "test_total_per100": -63.5,
+      "windows": 252,
+      "profitable_windows": 138,
+      "worst_31d_per100": -124.6,
+      "median_31d_per100": 3.32,
+      "by_year": {
+       "2022": -188.5,
+       "2023": 23.3,
+       "2024": 126.1,
+       "2025": 35.0,
+       "2026": -59.4
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 20,
+      "trend": 50,
+      "exit": "ma20",
+      "hold": 20,
+      "stop": 15
+     },
+     "rule": "Breakout 20d high above 50d avg, exit ma20, max 20d, stop 15%",
+     "n_train": 39759,
+     "n_test": 54371,
+     "train_avg_pct": 0.31,
+     "train_t": 5.9,
+     "test_avg_pct": -0.116,
+     "test_t": -2.5,
+     "test_win": 0.344,
+     "portfolio_test": {
+      "slots": 5,
+      "test_trades": 564,
+      "test_total_per100": -175.6,
+      "windows": 252,
+      "profitable_windows": 117,
+      "worst_31d_per100": -117.4,
+      "median_31d_per100": -4.46,
+      "by_year": {
+       "2022": -212.1,
+       "2023": 27.9,
+       "2024": 52.2,
+       "2025": -33.3,
+       "2026": -10.2
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 15,
+      "trend": 200,
+      "exit": "rsi70",
+      "hold": 5,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<15 above 200d avg, exit rsi70, max 5d, no stop",
+     "n_train": 11711,
+     "n_test": 15796,
+     "train_avg_pct": 0.366,
+     "train_t": 5.88,
+     "test_avg_pct": 0.119,
+     "test_t": 2.32,
+     "test_win": 0.505,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1892,
+      "test_total_per100": 264.3,
+      "windows": 252,
+      "profitable_windows": 149,
+      "worst_31d_per100": -135.3,
+      "median_31d_per100": 8.45,
+      "by_year": {
+       "2022": -13.3,
+       "2023": 66.9,
+       "2024": 14.0,
+       "2025": 89.3,
+       "2026": 107.4
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 10,
+      "trend": 200,
+      "exit": "ma5",
+      "hold": 10,
+      "stop": 20
+     },
+     "rule": "Dip-buy RSI(4)<10 above 200d avg, exit ma5, max 10d, stop 20%",
+     "n_train": 4623,
+     "n_test": 5822,
+     "train_avg_pct": 0.479,
+     "train_t": 5.86,
+     "test_avg_pct": 0.025,
+     "test_t": 0.34,
+     "test_win": 0.607,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 569,
+      "test_total_per100": -31.0,
+      "windows": 252,
+      "profitable_windows": 122,
+      "worst_31d_per100": -104.1,
+      "median_31d_per100": -0.34,
+      "by_year": {
+       "2022": -40.1,
+       "2023": 82.0,
+       "2024": -36.0,
+       "2025": 85.6,
+       "2026": -122.6
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 3,
+      "lvl": 5,
+      "trend": 200,
+      "exit": "ma5",
+      "hold": 10,
+      "stop": 20
+     },
+     "rule": "Dip-buy RSI(3)<5 above 200d avg, exit ma5, max 10d, stop 20%",
+     "n_train": 3976,
+     "n_test": 5048,
+     "train_avg_pct": 0.493,
+     "train_t": 5.82,
+     "test_avg_pct": 0.015,
+     "test_t": 0.2,
+     "test_win": 0.617,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1516,
+      "test_total_per100": -101.8,
+      "windows": 252,
+      "profitable_windows": 138,
+      "worst_31d_per100": -126.4,
+      "median_31d_per100": 3.51,
+      "by_year": {
+       "2022": -221.8,
+       "2023": 45.9,
+       "2024": 140.0,
+       "2025": 12.9,
+       "2026": -78.8
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 5,
+      "trend": 200,
+      "exit": "rsi50",
+      "hold": 5,
+      "stop": 20
+     },
+     "rule": "Dip-buy RSI(4)<5 above 200d avg, exit rsi50, max 5d, stop 20%",
+     "n_train": 780,
+     "n_test": 972,
+     "train_avg_pct": 1.159,
+     "train_t": 5.82,
+     "test_avg_pct": -0.222,
+     "test_t": -1.41,
+     "test_win": 0.534,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 321,
+      "test_total_per100": -13.4,
+      "windows": 252,
+      "profitable_windows": 139,
+      "worst_31d_per100": -52.8,
+      "median_31d_per100": 1.59,
+      "by_year": {
+       "2022": -72.5,
+       "2023": -14.7,
+       "2024": 55.9,
+       "2025": -7.5,
+       "2026": 25.4
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 3,
+      "lvl": 5,
+      "trend": 200,
+      "exit": "rsi50",
+      "hold": 5,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(3)<5 above 200d avg, exit rsi50, max 5d, no stop",
+     "n_train": 4023,
+     "n_test": 5180,
+     "train_avg_pct": 0.512,
+     "train_t": 5.81,
+     "test_avg_pct": 0.013,
+     "test_t": 0.17,
+     "test_win": 0.575,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1632,
+      "test_total_per100": -84.6,
+      "windows": 252,
+      "profitable_windows": 142,
+      "worst_31d_per100": -176.1,
+      "median_31d_per100": 4.53,
+      "by_year": {
+       "2022": -276.6,
+       "2023": 46.7,
+       "2024": 157.2,
+       "2025": 24.1,
+       "2026": -36.0
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "BO",
+      "look": 55,
+      "trend": 50,
+      "exit": "time",
+      "hold": 20,
+      "stop": 15
+     },
+     "rule": "Breakout 55d high above 50d avg, exit time, max 20d, stop 15%",
+     "n_train": 24813,
+     "n_test": 32203,
+     "train_avg_pct": 0.438,
+     "train_t": 5.69,
+     "test_avg_pct": -0.084,
+     "test_t": -1.2,
+     "test_win": 0.485,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 199,
+      "test_total_per100": -304.0,
+      "windows": 252,
+      "profitable_windows": 116,
+      "worst_31d_per100": -70.9,
+      "median_31d_per100": -2.81,
+      "by_year": {
+       "2022": -30.9,
+       "2023": -15.8,
+       "2024": 44.5,
+       "2025": -218.3,
+       "2026": -83.5
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 20,
+      "trend": 200,
+      "exit": "rsi70",
+      "hold": 5,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<20 above 200d avg, exit rsi70, max 5d, no stop",
+     "n_train": 20810,
+     "n_test": 28785,
+     "train_avg_pct": 0.253,
+     "train_t": 5.67,
+     "test_avg_pct": 0.052,
+     "test_t": 1.4,
+     "test_win": 0.501,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 619,
+      "test_total_per100": -81.0,
+      "windows": 252,
+      "profitable_windows": 111,
+      "worst_31d_per100": -66.0,
+      "median_31d_per100": -2.93,
+      "by_year": {
+       "2022": -61.9,
+       "2023": -4.2,
+       "2024": -34.4,
+       "2025": -34.7,
+       "2026": 54.1
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 10,
+      "trend": 200,
+      "exit": "ma10",
+      "hold": 5,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<10 above 200d avg, exit ma10, max 5d, no stop",
+     "n_train": 4700,
+     "n_test": 6017,
+     "train_avg_pct": 0.512,
+     "train_t": 5.63,
+     "test_avg_pct": -0.007,
+     "test_t": -0.09,
+     "test_win": 0.515,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 542,
+      "test_total_per100": -284.3,
+      "windows": 252,
+      "profitable_windows": 118,
+      "worst_31d_per100": -81.2,
+      "median_31d_per100": -1.98,
+      "by_year": {
+       "2022": -113.2,
+       "2023": -16.6,
+       "2024": 38.2,
+       "2025": -98.1,
+       "2026": -94.6
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 5,
+      "trend": 200,
+      "exit": "rsi50",
+      "hold": 5,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<5 above 200d avg, exit rsi50, max 5d, no stop",
+     "n_train": 780,
+     "n_test": 972,
+     "train_avg_pct": 1.164,
+     "train_t": 5.59,
+     "test_avg_pct": -0.186,
+     "test_t": -1.21,
+     "test_win": 0.535,
+     "portfolio_test": {
+      "slots": 3,
+      "test_trades": 321,
+      "test_total_per100": 8.2,
+      "windows": 252,
+      "profitable_windows": 139,
+      "worst_31d_per100": -31.2,
+      "median_31d_per100": 1.59,
+      "by_year": {
+       "2022": -72.5,
+       "2023": -14.7,
+       "2024": 55.9,
+       "2025": 14.1,
+       "2026": 25.4
+      }
+     }
+    },
+    {
+     "v": {
+      "fam": "MR",
+      "n": 4,
+      "lvl": 10,
+      "trend": 200,
+      "exit": "rsi50",
+      "hold": 10,
+      "stop": 0
+     },
+     "rule": "Dip-buy RSI(4)<10 above 200d avg, exit rsi50, max 10d, no stop",
+     "n_train": 4581,
+     "n_test": 5739,
+     "train_avg_pct": 0.611,
+     "train_t": 5.58,
+     "test_avg_pct": 0.079,
+     "test_t": 0.88,
+     "test_win": 0.617,
+     "portfolio_test": {
+      "slots": 10,
+      "test_trades": 1230,
+      "test_total_per100": 214.4,
+      "windows": 252,
+      "profitable_windows": 154,
+      "worst_31d_per100": -115.6,
+      "median_31d_per100": 7.93,
+      "by_year": {
+       "2022": -61.6,
+       "2023": 116.9,
+       "2024": 201.9,
+       "2025": 64.6,
+       "2026": -107.4
+      }
+     }
+    }
+   ]
+  }
+ },
+ "stock_strategy_evaluations": 14417568
+}
