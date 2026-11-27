@@ -1,0 +1,74 @@
+{
+ "2017-11-24": {
+  "stocks": 1058,
+  "avg_open_to_close_pct": -0.121,
+  "share_up_open_to_close": 0.427,
+  "avg_close_to_close_pct": 0.173,
+  "gap_up_gt1pct_then_open_to_close": -0.512,
+  "gap_down_gt1pct_then_open_to_close": -0.97
+ },
+ "2018-11-23": {
+  "stocks": 1151,
+  "avg_open_to_close_pct": 0.603,
+  "share_up_open_to_close": 0.718,
+  "avg_close_to_close_pct": -0.279,
+  "gap_up_gt1pct_then_open_to_close": 2.559,
+  "gap_down_gt1pct_then_open_to_close": 0.77
+ },
+ "2019-11-29": {
+  "stocks": 1150,
+  "avg_open_to_close_pct": -0.312,
+  "share_up_open_to_close": 0.28,
+  "avg_close_to_close_pct": -0.565,
+  "gap_up_gt1pct_then_open_to_close": 0.198,
+  "gap_down_gt1pct_then_open_to_close": -0.107
+ },
+ "2020-11-27": {
+  "stocks": 1294,
+  "avg_open_to_close_pct": 0.343,
+  "share_up_open_to_close": 0.509,
+  "avg_close_to_close_pct": 0.724,
+  "gap_up_gt1pct_then_open_to_close": 1.143,
+  "gap_down_gt1pct_then_open_to_close": 0.741
+ },
+ "2021-11-26": {
+  "stocks": 1514,
+  "avg_open_to_close_pct": -0.156,
+  "share_up_open_to_close": 0.404,
+  "avg_close_to_close_pct": -2.474,
+  "gap_up_gt1pct_then_open_to_close": 0.232,
+  "gap_down_gt1pct_then_open_to_close": -0.038
+ },
+ "2022-11-25": {
+  "stocks": 1379,
+  "avg_open_to_close_pct": 0.327,
+  "share_up_open_to_close": 0.648,
+  "avg_close_to_close_pct": 0.168,
+  "gap_up_gt1pct_then_open_to_close": 0.02,
+  "gap_down_gt1pct_then_open_to_close": 0.254
+ },
+ "2023-11-24": {
+  "stocks": 1424,
+  "avg_open_to_close_pct": 0.554,
+  "share_up_open_to_close": 0.758,
+  "avg_close_to_close_pct": 0.525,
+  "gap_up_gt1pct_then_open_to_close": 1.256,
+  "gap_down_gt1pct_then_open_to_close": 1.427
+ },
+ "2024-11-29": {
+  "stocks": 1645,
+  "avg_open_to_close_pct": 0.117,
+  "share_up_open_to_close": 0.463,
+  "avg_close_to_close_pct": 0.55,
+  "gap_up_gt1pct_then_open_to_close": 0.172,
+  "gap_down_gt1pct_then_open_to_close": 1.552
+ },
+ "2025-11-28": {
+  "stocks": 1873,
+  "avg_open_to_close_pct": 0.404,
+  "share_up_open_to_close": 0.608,
+  "avg_close_to_close_pct": 0.884,
+  "gap_up_gt1pct_then_open_to_close": 1.117,
+  "gap_down_gt1pct_then_open_to_close": 0.241
+ }
+}

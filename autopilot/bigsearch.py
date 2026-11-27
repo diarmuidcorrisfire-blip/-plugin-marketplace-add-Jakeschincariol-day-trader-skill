@@ -272,14 +272,21 @@ def search():
             rows.append({"v": v, "rule": label(v), "n_train": len(tr), "n_test": len(te),
                          "train_avg_pct": round(100 * tr.mean(), 3), "train_t": round(tr.mean() / (tr.std() + 1e-12) * len(tr) ** .5, 2),
                          "test_avg_pct": round(100 * te.mean(), 3), "test_t": round(te.mean() / (te.std() + 1e-12) * len(te) ** .5, 2),
-                         "test_win": round(float((te > 0).mean()), 3), "_ev": ev})
+                         "test_win": round(float((te > 0).mean()), 3)})
+            del ev, arr, dts
             if k % 100 == 0:
                 print(name, k, "/", len(vs), "stocks", len(data), round(time.time() - t0), "s", flush=True)
         # choose on TRAIN only
         rows.sort(key=lambda r: r["train_t"], reverse=True)
         top = rows[:30]
         for r in top:
-            ev = r.pop("_ev")
+            v = r["v"]
+            ev = []
+            for s_, p in data.items():
+                ei, xi, rr = trades_for(p, v, fee)
+                if len(rr):
+                    ev.extend(zip(p["d"][ei], p["d"][xi], rr, p["rsi"][v.get("n", 3)][ei]))
+            ev.sort(key=lambda e: (e[0], e[3]))
             last = max(e[1] for e in ev) + dt.timedelta(days=1)
             best = None
             for slots in (3, 5, 10):
@@ -293,9 +300,10 @@ def search():
                 if best is None or cand["test_total_per100"] > best["test_total_per100"]:
                     best = cand
             r["portfolio_test"] = best
-        for r in rows[30:]:
-            r.pop("_ev", None)
         out["markets"][name] = {"stocks": len(data), "variants": len(vs), "kept": len(rows), "top30_by_train": top}
+        with open(os.path.join(ROOT, "trader", "bigsearch_results.json"), "w") as f:
+            json.dump(out, f, indent=1, default=str)
+        del data
         for r in top[:8]:
             print(name, r["rule"], "| train", r["train_avg_pct"], "t", r["train_t"], "| TEST", r["test_avg_pct"], "t", r["test_t"],
                   "| book", r["portfolio_test"], flush=True)
