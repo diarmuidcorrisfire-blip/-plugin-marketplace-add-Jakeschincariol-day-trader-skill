@@ -7,6 +7,13 @@
   "PYPL_US_EQ",
   "VZ_US_EQ",
   "COST_US_EQ",
-  "DIS_US_EQ"
+  "DIS_US_EQ",
+  "AVGO_US_EQ",
+  "NKE_US_EQ",
+  "QCOM_US_EQ",
+  "RIVN_US_EQ",
+  "TSLA_US_EQ",
+  "ABNB_US_EQ",
+  "GM_US_EQ"
  ]
 }
