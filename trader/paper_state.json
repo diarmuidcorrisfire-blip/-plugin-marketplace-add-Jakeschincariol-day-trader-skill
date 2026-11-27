@@ -961,10 +961,8 @@
    "closed": "2026-11-25 10:25",
    "pnl_eur": -0.682,
    "r": -1.0
-  }
- ],
- "open": {
-  "EU": {
+  },
+  {
    "market": "EU",
    "date": "2026-11-27",
    "ticker": "RHMd_EQ",
@@ -982,8 +980,15 @@
     "sessions": 59,
     "avg_eur": 0.045
    },
-   "chg_pct": 5.47
+   "chg_pct": 5.47,
+   "source": "live",
+   "exit": 797.8,
+   "why": "stop",
+   "closed": "2026-11-27 10:15",
+   "pnl_eur": -1.494,
+   "r": -1.71
   }
- },
+ ],
+ "open": {},
  "backfilled_through": "2026-11-26"
 }
