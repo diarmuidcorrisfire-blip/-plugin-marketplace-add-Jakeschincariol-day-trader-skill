@@ -963,6 +963,27 @@
    "r": -1.0
   }
  ],
- "open": {},
+ "open": {
+  "EU": {
+   "market": "EU",
+   "date": "2026-11-27",
+   "ticker": "RHMd_EQ",
+   "yahoo": "RHM.DE",
+   "opened": "2026-11-27 10:14",
+   "entry": 807.76152,
+   "stop": 801.95,
+   "target": 813.25,
+   "qty": 0.15,
+   "fx": 1.0963709354400635,
+   "replay": {
+    "target": 813.25,
+    "p_target": 0.527,
+    "p_stop": 0.473,
+    "sessions": 59,
+    "avg_eur": 0.045
+   },
+   "chg_pct": 5.47
+  }
+ },
  "backfilled_through": "2026-11-26"
 }
