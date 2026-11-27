@@ -80,7 +80,7 @@ def rebalance(book, today):
     for s in candidates():
         if s in NEVER:
             continue
-        rows = daily(s)
+        rows = daily(s, "2y")
         time.sleep(0.2)
         if rows and len(rows) >= 240 and rows[-1][0] == today:
             data[s] = rows
