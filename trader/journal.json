@@ -1,0 +1,14 @@
+{
+ "trades": [
+  {
+   "ticker": "AMD_US_EQ",
+   "name": "Advanced Micro Devices",
+   "opened": "2026-11-27T15:30:43Z",
+   "closed": "2026-11-27T15:36:25Z",
+   "cost_eur": 1000.0,
+   "proceeds_eur": 1007.27,
+   "profit_after_fees_eur": 7.27,
+   "note": "bought and sold by the user in the app; FX fees EUR 1.50 + 1.51"
+  }
+ ]
+}

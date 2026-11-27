@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""One REAL US trade for Fri Nov 27 2026 (Black Friday half day), approved by the user in chat.
+"""One REAL US trade a day (approved by the user in chat on Nov 27 2026: "you have to be able to make me
+money as well"). Runs each US trading day from a scheduled task.
 
 Limits: EUR 130 max in the trade, EUR 2 max loss at the stop incl. FX fees, one entry, stop placed
 right after the fill (or sell at once), flat by 12:50 ET (18:50 CET) before the 13:00 ET close.
@@ -31,8 +32,10 @@ for s in EXTRA:
 uni_path = os.path.join(ap.ROOT, "trader", "today_us_universe.json")
 json.dump(uni, open(uni_path, "w"), indent=0)
 
+HALF = dt.datetime.now(NY).date().isoformat() in ap.NYSE_EARLY_CLOSE
 MK = {"name": "US", "universe": os.path.relpath(uni_path, ap.ROOT), "tz": "America/New_York", "currency": "USD",
-      "or": ["09:30", "09:45"], "entry": ["09:47", "11:30"], "flat_by": "12:50", "min_price": 5,
+      "or": ["09:30", "09:45"], "entry": ["09:47", "11:30" if HALF else "14:00"], "flat_by": "12:50" if HALF else "15:40",
+      "min_price": 5,
       "min_target_pct": 0.8, "fx_fee_pct": 0.15}
 CFG = {**base, "enabled": True, "budget_eur": 130, "risk_per_trade_eur": 2,
        "markets": {"US": MK}, "never_trade": base.get("never_trade", []) + ["NVDA"]}
@@ -48,6 +51,12 @@ def gapped_up(ysym):
 
 def main():
     state = ap.load(STATE, {"open": None, "trades": [], "day_entries": {}, "checked": []})
+    today = dt.datetime.now(NY).date().isoformat()
+    if state.get("date") != today and not state.get("open"):
+        hist = ap.load(STATE.replace(".json", "_history.json"), {"days": []})
+        if state.get("date"):
+            hist["days"].append(state); ap.save(STATE.replace(".json", "_history.json"), hist)
+        state = {"date": today, "open": None, "trades": [], "day_entries": {}, "checked": []}
     while True:
         now = dt.datetime.now(ap.CET)
         now_l = now.astimezone(NY)
@@ -64,7 +73,7 @@ def main():
             if state["trades"] or state["day_entries"].get(now.date().isoformat(), 0) >= 1:
                 ap.log("TODAY DONE", note="already traded"); break
             if now_l.time() > ap.hm(MK["entry"][1]):
-                ap.log("NO TRADE TODAY", reason="no setup passed the checks by 11:30 ET", checked=state["checked"][-10:])
+                ap.log("NO TRADE TODAY", reason=f"no setup passed the checks by {MK['entry'][1]} ET", checked=state["checked"][-10:])
                 break
             if now_l.time() < ap.hm(MK["entry"][0]):
                 time.sleep(30); continue
