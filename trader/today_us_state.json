@@ -2,5 +2,10 @@
  "open": null,
  "trades": [],
  "day_entries": {},
- "checked": []
+ "checked": [
+  "KSS_US_EQ",
+  "PYPL_US_EQ",
+  "VZ_US_EQ",
+  "COST_US_EQ"
+ ]
 }
