@@ -37,7 +37,10 @@ MK = {"name": "US", "universe": os.path.relpath(uni_path, ap.ROOT), "tz": "Ameri
       "or": ["09:30", "09:45"], "entry": ["09:47", "11:30" if HALF else "14:00"], "flat_by": "12:50" if HALF else "15:40",
       "min_price": 5,
       "min_target_pct": 0.8, "fx_fee_pct": 0.15}
-CFG = {**base, "enabled": True, "budget_eur": 130, "risk_per_trade_eur": 2,
+BUDGET = float(os.environ.get("TODAY_BUDGET_EUR", "130"))      # hard cap on money in a trade
+MAX_TRADES = int(os.environ.get("TODAY_MAX_TRADES", "1"))
+DAY_LOSS_CAP = float(os.environ.get("TODAY_LOSS_CAP_EUR", "2"))
+CFG = {**base, "enabled": True, "budget_eur": BUDGET, "risk_per_trade_eur": 2,
        "markets": {"US": MK}, "never_trade": base.get("never_trade", []) + ["NVDA"]}
 
 
@@ -66,12 +69,12 @@ def main():
                 ap.manage_open(state, CFG, now, pos)
                 ap.save(STATE, state)
                 if not state["open"]:
-                    ap.log("TODAY DONE", trades=state["trades"][-1:])
-                    break
+                    ap.log("TRADE RESULT", trade=state["trades"][-1:])
                 time.sleep(20)
                 continue
-            if state["trades"] or state["day_entries"].get(now.date().isoformat(), 0) >= 1:
-                ap.log("TODAY DONE", note="already traded"); break
+            day_pnl = sum(t.get("pnl_eur", 0) for t in state["trades"])
+            if state["day_entries"].get(now.date().isoformat(), 0) >= MAX_TRADES or day_pnl <= -DAY_LOSS_CAP:
+                ap.log("TODAY DONE", trades=len(state["trades"]), day_pnl_eur=round(day_pnl, 2)); break
             if now_l.time() > ap.hm(MK["entry"][1]):
                 ap.log("NO TRADE TODAY", reason=f"no setup passed the checks by {MK['entry'][1]} ET", checked=state["checked"][-10:])
                 break
