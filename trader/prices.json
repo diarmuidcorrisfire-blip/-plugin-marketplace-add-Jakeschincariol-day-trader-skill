@@ -1,16 +1,16 @@
 {
-  "as_of": "2026-11-27T16:48:39Z",
+  "as_of": "2026-11-27T17:48:58Z",
   "source": "yahoo",
   "note": "Delayed quotes for alerts and sizing checks. Your broker's price is the one that fills. detail.fetched is when each price was read.",
   "prices": {
-    "NVDA": 149.12
+    "NVDA": 149.005
   },
   "detail": {
     "NVDA": {
       "prev_close": 149.3,
-      "time": "2026-11-27T16:48:39Z",
+      "time": "2026-11-27T17:48:58Z",
       "source": "yahoo",
-      "fetched": "2026-11-27T16:48:39Z"
+      "fetched": "2026-11-27T17:48:58Z"
     }
   }
 }
