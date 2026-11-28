@@ -1,0 +1,277 @@
+{
+ "generated_utc": "2026-11-28T09:57",
+ "listed_by_yahoo": 8002,
+ "liquid_researched": 681,
+ "signal_backtest_30d": {
+  "n": 6791,
+  "touched_plus20_pct": 8.1,
+  "touched_plus10_pct": 17.0,
+  "fell_10_first_pct": 16.0,
+  "avg_24h_result_pct": 32.88,
+  "median_24h_result_pct": -3.23,
+  "share_profitable_24h": 0.255
+ },
+ "any_hour_baseline_30d": {
+  "n": 79482,
+  "touched_plus20_pct": 3.3,
+  "touched_plus10_pct": 9.0,
+  "fell_10_first_pct": 9.7,
+  "avg_24h_result_pct": 1.35,
+  "median_24h_result_pct": -1.68,
+  "share_profitable_24h": 0.304
+ },
+ "live_breakouts_last_3h": [
+  {
+   "sym": "NIGHT39064-USD",
+   "name": "Midnight USD",
+   "price_usd": 0.05244576930999756,
+   "signal_hour_utc": "09:00",
+   "chg_24h_pct": 3.5,
+   "vol_24h_usd": 62748432,
+   "mcap_usd": 870987840,
+   "vol_x_avg": 4.5,
+   "stop_usd": 0.04783239,
+   "target_usd": 0.06293492,
+   "this_coin_past_signals": {
+    "n": 19,
+    "touched_plus20_pct": 0.0,
+    "touched_plus10_pct": 0.0,
+    "fell_10_first_pct": 5.3,
+    "avg_24h_result_pct": -1.39,
+    "median_24h_result_pct": -2.22,
+    "share_profitable_24h": 0.368
+   }
+  },
+  {
+   "sym": "IDOL36775-USD",
+   "name": "MEET48 USD",
+   "price_usd": 0.01989261992275715,
+   "signal_hour_utc": "07:00",
+   "chg_24h_pct": 24.6,
+   "vol_24h_usd": 20719430,
+   "mcap_usd": 21431700,
+   "vol_x_avg": 4.0,
+   "stop_usd": 0.01690873,
+   "target_usd": 0.02387114,
+   "this_coin_past_signals": {
+    "n": 22,
+    "touched_plus20_pct": 27.3,
+    "touched_plus10_pct": 45.5,
+    "fell_10_first_pct": 50.0,
+    "avg_24h_result_pct": -16.58,
+    "median_24h_result_pct": -8.57,
+    "share_profitable_24h": 0.227
+   }
+  },
+  {
+   "sym": "TAG34958-USD",
+   "name": "Tagger USD",
+   "price_usd": 0.0006169189582578838,
+   "signal_hour_utc": "08:00",
+   "chg_24h_pct": 34.8,
+   "vol_24h_usd": 17905356,
+   "mcap_usd": 66876832,
+   "vol_x_avg": 52.7,
+   "stop_usd": 0.00052438,
+   "target_usd": 0.0007403,
+   "this_coin_past_signals": {
+    "n": 11,
+    "touched_plus20_pct": 0.0,
+    "touched_plus10_pct": 0.0,
+    "fell_10_first_pct": 27.3,
+    "avg_24h_result_pct": -5.47,
+    "median_24h_result_pct": -4.21,
+    "share_profitable_24h": 0.273
+   }
+  },
+  {
+   "sym": "WIN-USD",
+   "name": "WINkLink USD",
+   "price_usd": 5.557414624490775e-05,
+   "signal_hour_utc": "09:00",
+   "chg_24h_pct": 4.4,
+   "vol_24h_usd": 15694842,
+   "mcap_usd": 55224132,
+   "vol_x_avg": 6.8,
+   "stop_usd": 5.208e-05,
+   "target_usd": 6.669e-05,
+   "this_coin_past_signals": {
+    "n": 24,
+    "touched_plus20_pct": 0.0,
+    "touched_plus10_pct": 0.0,
+    "fell_10_first_pct": 16.7,
+    "avg_24h_result_pct": -4.8,
+    "median_24h_result_pct": -4.35,
+    "share_profitable_24h": 0.083
+   }
+  },
+  {
+   "sym": "GUN-USD",
+   "name": "GUNZ USD",
+   "price_usd": 0.00147258082870394,
+   "signal_hour_utc": "08:00",
+   "chg_24h_pct": 5.7,
+   "vol_24h_usd": 13390315,
+   "mcap_usd": 6080693,
+   "vol_x_avg": 6.8,
+   "stop_usd": 0.00135209,
+   "target_usd": 0.0017671,
+   "this_coin_past_signals": {
+    "n": 9,
+    "touched_plus20_pct": 0.0,
+    "touched_plus10_pct": 22.2,
+    "fell_10_first_pct": 11.1,
+    "avg_24h_result_pct": -5.37,
+    "median_24h_result_pct": -3.73,
+    "share_profitable_24h": 0.333
+   }
+  },
+  {
+   "sym": "DODO-USD",
+   "name": "DODO USD",
+   "price_usd": 0.04223620891571045,
+   "signal_hour_utc": "09:00",
+   "chg_24h_pct": 7.7,
+   "vol_24h_usd": 5345729,
+   "mcap_usd": 42236212,
+   "vol_x_avg": 8.3,
+   "stop_usd": 0.03905135,
+   "target_usd": 0.05068345,
+   "this_coin_past_signals": {
+    "n": 19,
+    "touched_plus20_pct": 10.5,
+    "touched_plus10_pct": 42.1,
+    "fell_10_first_pct": 5.3,
+    "avg_24h_result_pct": 0.82,
+    "median_24h_result_pct": 0.82,
+    "share_profitable_24h": 0.579
+   }
+  },
+  {
+   "sym": "XEC-USD",
+   "name": "eCash USD",
+   "price_usd": 5.119794423080748e-06,
+   "signal_hour_utc": "07:00",
+   "chg_24h_pct": -2.2,
+   "vol_24h_usd": 5148527,
+   "mcap_usd": 102995568,
+   "vol_x_avg": 89.2,
+   "stop_usd": 5.08e-06,
+   "target_usd": 6.14e-06,
+   "this_coin_past_signals": {
+    "n": 7,
+    "touched_plus20_pct": 0.0,
+    "touched_plus10_pct": 0.0,
+    "fell_10_first_pct": 0.0,
+    "avg_24h_result_pct": -3.78,
+    "median_24h_result_pct": -2.45,
+    "share_profitable_24h": 0.0
+   }
+  },
+  {
+   "sym": "DOLO-USD",
+   "name": "Dolomite USD",
+   "price_usd": 0.018060000613331795,
+   "signal_hour_utc": "07:00",
+   "chg_24h_pct": 1.3,
+   "vol_24h_usd": 3981618,
+   "mcap_usd": 7985068,
+   "vol_x_avg": 22.4,
+   "stop_usd": 0.01639,
+   "target_usd": 0.021672,
+   "this_coin_past_signals": {
+    "n": 9,
+    "touched_plus20_pct": 0.0,
+    "touched_plus10_pct": 0.0,
+    "fell_10_first_pct": 0.0,
+    "avg_24h_result_pct": -3.32,
+    "median_24h_result_pct": -2.6,
+    "share_profitable_24h": 0.0
+   }
+  },
+  {
+   "sym": "NIGHT-USD",
+   "name": "Midnight (midnight.vip) USD",
+   "price_usd": 0.05221555754542351,
+   "signal_hour_utc": "09:00",
+   "chg_24h_pct": 3.0,
+   "vol_24h_usd": 3882167,
+   "mcap_usd": 0,
+   "vol_x_avg": 4.1,
+   "stop_usd": 0.04778754,
+   "target_usd": 0.06265867,
+   "this_coin_past_signals": {
+    "n": 15,
+    "touched_plus20_pct": 0.0,
+    "touched_plus10_pct": 0.0,
+    "fell_10_first_pct": 6.7,
+    "avg_24h_result_pct": -0.55,
+    "median_24h_result_pct": -0.04,
+    "share_profitable_24h": 0.467
+   }
+  },
+  {
+   "sym": "MLK-USD",
+   "name": "MiL.k USD",
+   "price_usd": 0.032429058104753494,
+   "signal_hour_utc": "09:00",
+   "chg_24h_pct": 2.8,
+   "vol_24h_usd": 2331969,
+   "mcap_usd": 19067804,
+   "vol_x_avg": 130.5,
+   "stop_usd": 0.03088247,
+   "target_usd": 0.03891487,
+   "this_coin_past_signals": {
+    "n": 6,
+    "touched_plus20_pct": 0.0,
+    "touched_plus10_pct": 0.0,
+    "fell_10_first_pct": 0.0,
+    "avg_24h_result_pct": -2.85,
+    "median_24h_result_pct": -2.84,
+    "share_profitable_24h": 0.167
+   }
+  },
+  {
+   "sym": "LGNS-USD",
+   "name": "Origin USD",
+   "price_usd": 0.14571937918663025,
+   "signal_hour_utc": "07:00",
+   "chg_24h_pct": 3.2,
+   "vol_24h_usd": 1686017,
+   "mcap_usd": 0,
+   "vol_x_avg": 3.9,
+   "stop_usd": 0.13995551,
+   "target_usd": 0.17486326,
+   "this_coin_past_signals": {
+    "n": 7,
+    "touched_plus20_pct": 0.0,
+    "touched_plus10_pct": 71.4,
+    "fell_10_first_pct": 0.0,
+    "avg_24h_result_pct": 7.97,
+    "median_24h_result_pct": 8.13,
+    "share_profitable_24h": 0.857
+   }
+  },
+  {
+   "sym": "KONET-USD",
+   "name": "KONET USD",
+   "price_usd": 0.006436560768634081,
+   "signal_hour_utc": "07:00",
+   "chg_24h_pct": 15.5,
+   "vol_24h_usd": 1605747,
+   "mcap_usd": 3172520,
+   "vol_x_avg": 3.9,
+   "stop_usd": 0.00547108,
+   "target_usd": 0.00772387,
+   "this_coin_past_signals": {
+    "n": 15,
+    "touched_plus20_pct": 40.0,
+    "touched_plus10_pct": 66.7,
+    "fell_10_first_pct": 53.3,
+    "avg_24h_result_pct": 0.42,
+    "median_24h_result_pct": -2.45,
+    "share_profitable_24h": 0.4
+   }
+  }
+ ]
+}
